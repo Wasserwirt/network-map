@@ -1,0 +1,3095 @@
+﻿<svg  width="1980"  height="1320"  viewBox="-170 -15 620 440"  clip-path="url(#viewBoxClipPath)"
+  xmlns="http://www.w3.org/2000/svg"  >
+<metadata>
+  <rdf:RDF  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+    <rdf:Description>
+      <dc:creator>Holger Kretschmer</dc:creator>
+      <dc:title>Future Suburban and Underground Train Network Map Frankfurt/Rhein-Main</dc:title>
+      <dc:rights>© CC-BY-SA 4.0 or later - 2026 - Holger Kretschmer</dc:rights>
+      <dc:language>en-GB</dc:language>
+      <dc:description>Schematic network map of existing and planned suburban (S-Bahn), underground (U-Bahn) lines within Frankfurt am Main and the Rhein-Main vicinity</dc:description>
+      <dc:type>Image</dc:type>
+      <dc:format>image/svg+xml</dc:format>
+      <dc:subject>Frankfurt am Main, Rhein-Main, S-Bahn, U-Bahn, Network plan</dc:subject>
+      <dc:date>2026-06-04</dc:date>
+      <dc:identifier></dc:identifier>
+    </rdf:Description>
+  </rdf:RDF>
+ </metadata>
+<style  type="text/css"  >
+  .suburbanline {  fill:none;  stroke-width:2.5;  }
+  .suburbanlineBackground {  fill:none;  stroke-width:3.5;  stroke:#FFFFFF;  }
+  .suburbanlineInner {  fill:none;  stroke-width:2;  }
+  .metroline {  fill:none;  stroke-width:2.5;  }
+  .metrolineBackground {  fill:none;  stroke-width:3.5;  stroke:#FFFFFF;  }
+  .metrolineInner {  fill:none;  stroke-width:2;  }
+  .tramline {  fill:none;  stroke-width:1.75;  }
+  .tramlineBackground {  fill:none;  stroke-width:2.75;  stroke:#FFFFFF;  }
+  .tramlineInner {  fill:none;  stroke-width:1.25;  }
+  .othersline {  fill:none;  }
+  .otherslineBackground {  fill:none;  stroke:#FFFFFF;  }
+  .otherslineInner {  fill:none;  }
+  .singletonStation {  fill:#FFFFFF;  stroke-width:0.75;  }
+  .singletonStationOuterBorder {  stroke-width:0.25;  }
+  .singletonStationInnerBorder {  fill:#FFFFFF;  stroke-width:0.25;  }
+  .singletonTerminus {  fill:#FFFFFF;  stroke-width:1;  }
+  .singletonTerminusOuterBorder {  stroke-width:0.25;  }
+  .singletonTerminusInnerBorder {  fill:#FFFFFF;  stroke-width:0.25;  }
+  .changeStation {  fill:#FFFFFF;  stroke-width:0.75;  }
+  .changeTerminus {  fill:#FFFFFF;  stroke-width:1;  }
+  .stationTextMiddleLeft {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  dominant-baseline:middle;  }
+  .stationTextMiddleRight {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:end;  dominant-baseline:middle;  }
+  .stationTextBottomLeft {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  }
+  .stationTextBottomRight {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:end;  }
+  .stationTextTopLeft {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  dominant-baseline:hanging  }
+  .stationTextTopRight {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:end;  dominant-baseline:hanging;  }
+  .stationTextMiddleCenter {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:middle;  dominant-baseline:middle;  }
+  .stationTextBottomCenter {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:middle;  }
+  .stationTextTopCenter {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:middle;  dominant-baseline:hanging;  }
+  .terminusTextMiddleLeft {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  dominant-baseline:middle;  font-weight:bold;  }
+  .terminusTextMiddleRight {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:end;  dominant-baseline:middle;  font-weight:bold;  }
+  .terminusTextBottomLeft {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  font-weight:bold;  }
+  .terminusTextBottomRight {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:end;  font-weight:bold;  }
+  .terminusTextTopLeft {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  dominant-baseline:hanging;  font-weight:bold;  }
+  .terminusTextTopRight {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:end;  dominant-baseline:hanging;  font-weight:bold;  }
+  .terminusTextMiddleCenter {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:middle;  dominant-baseline:middle;  font-weight:bold;  }
+  .terminusTextBottomCenter {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:middle;  font-weight:bold;  }
+  .terminusTextTopCenter {  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:6px;  text-anchor:middle;  dominant-baseline:hanging;  font-weight:bold;  }
+  .metroEndMarkerBackground {  fill:#FFFFFF;  stroke-width:0.5;  stroke:#FFFFFF;  }
+  .tramEndBackground {  fill:#FFFFFF;  stroke-width:0.5;  stroke:#FFFFFF;  }
+  .suburbanEndMarkerBackground {  fill:#FFFFFF;  stroke-width:0.5;  stroke:#FFFFFF;  }
+  .metroEndMarker {  stroke-width:0.5;  paint-order:stroke;  }
+  .tramEndMarker {  stroke-width:0.5;  paint-order:stroke;  }
+  .suburbanEndMarker {  stroke-width:0.5;  paint-order:stroke;  }
+  .metroEndMarkerText {  fill:#FFFFFF;  stroke-width:0.5;  stroke-linejoin:round;  paint-order:stroke;  font-family:Helvetica,sans-serif;  font-size:4px;  text-anchor:middle;  dominant-baseline:central;  font-weight:bold;  }
+  .tramEndMarkerText {  fill:#FFFFFF;  stroke-width:0.5;  stroke-linejoin:round;  paint-order:stroke;  font-family:Helvetica,sans-serif;  font-size:4px;  text-anchor:middle;  dominant-baseline:central;  font-weight:bold;  }
+  .suburbanEndMarkerText {  fill:#FFFFFF;  stroke-width:0.5;  stroke-linejoin:round;  paint-order:stroke;  font-family:Helvetica,sans-serif;  font-size:4px;  text-anchor:middle;  dominant-baseline:central;  font-weight:bold;  }
+  .footer{  fill:#000000;  stroke-width:1;  stroke:#FFFFFF;  stroke-linejoin:round;  paint-order:stroke;  font-family:Bahnschrift,Helvetica,sans-serif;  font-stretch:condensed;  font-size:4px;  font-weight:lighter;  }
+</style>
+<defs>
+  <clipPath  id="viewBoxClipPath"  >
+  <rect  x="60"  y="0"  width="1860"  height="1320"  />
+  </clipPath>
+  <clipPath  id="singletonStationBorderlessClipPath"  >
+  <rect  x="-1.25"  y="-10"  width="2.5"  height="20"  />
+  </clipPath>
+</defs>
+<symbol  id="StationShape-0-0"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+  <circle  class="singletonStation"  cx="0"  cy="0"  r="1.875"  />
+</symbol>
+<symbol  id="StationShape-0-0OuterBorder"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+  <circle  class="singletonStationOuterBorder"  cx="0"  cy="0"  r="2.125"  />
+</symbol>
+<symbol  id="StationShape-0-0InnerBorder"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+  <circle  class="singletonStationInnerBorder"  cx="0"  cy="0"  r="1.625"  />
+</symbol>
+<symbol  id="TerminusShape-0-0"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+  <circle  class="singletonTerminus"  cx="0"  cy="0"  r="2.5"  />
+</symbol>
+<symbol  id="TerminusShape-0-0OuterBorder"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+  <circle  class="singletonTerminusOuterBorder"  cx="0"  cy="0"  r="2.875"  />
+</symbol>
+<symbol  id="TerminusShape-0-0InnerBorder"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+  <circle  class="singletonTerminusInnerBorder"  cx="0"  cy="0"  r="2.125"  />
+</symbol>
+<symbol  id="StationShape-2-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-1.375"  width="8.75"  height="2.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-2-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-1.75"  width="9"  height="3.5"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-1-2"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-2.375"  width="4.75"  height="8.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-1-2"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-2.5"  width="5"  height="9"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-3-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-1.375"  width="12.75"  height="2.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-3-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-1.75"  width="13"  height="3.5"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-3-10"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-2.375"  width="12.75"  height="40.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-3-10"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-2.5"  width="13"  height="41"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-1-1"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-2.375"  width="4.75"  height="4.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-1-1"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-2.5"  width="5"  height="5"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-2-2"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-2.375"  width="8.75"  height="8.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-2-2"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-2.5"  width="9"  height="9"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-4-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-1.375"  width="16.75"  height="2.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-4-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-1.75"  width="17"  height="3.5"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-4-10"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-2.375"  width="16.75"  height="40.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-4-10"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-2.5"  width="17"  height="41"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-4-3"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-2.375"  width="16.75"  height="12.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-4-3"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-2.5"  width="17"  height="13"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-1-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-1.375"  width="4.75"  height="2.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-1-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-1.75"  width="5"  height="3.5"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-7-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-1.375"  width="28.75"  height="2.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-7-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-1.75"  width="29"  height="3.5"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-2-1"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-2.375"  width="8.75"  height="4.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-2-1"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-2.5"  width="9"  height="5"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-8-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-1.375"  width="32.75"  height="2.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-8-0"  width="80"  height="20"  viewBox="-10 -10 80 20"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-1.75"  width="33"  height="3.5"  rx="1.75"  />
+</symbol>
+<symbol  id="StationShape-9-4"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeStation"  x="-2.375"  y="-2.375"  width="36.75"  height="16.75"  rx="1.375"  />
+</symbol>
+<symbol  id="TerminusShape-9-4"  width="80"  height="80"  viewBox="-10 -10 80 80"  x="-10"  y="-10"  >
+  <rect  class="changeTerminus"  x="-2.5"  y="-2.5"  width="37"  height="17"  rx="1.75"  />
+</symbol>
+<symbol  id="SuburbanEndMarker"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+  <rect  class="suburbanEndMarkerBackground"  x="-4.2"  y="-2.75"  width="8.4"  height="5.6"  rx="2.8"  />
+  <rect  class="suburbanEndMarker"  x="-3.7"  y="-2.25"  width="7.4"  height="4.6"  rx="2.3"  />
+</symbol>
+<symbol  id="SuburbanEndMarker-3Chars"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+  <rect  class="suburbanEndMarkerBackground"  x="-5.2"  y="-2.75"  width="10.4"  height="5.6"  rx="2.8"  />
+  <rect  class="suburbanEndMarker"  x="-4.7"  y="-2.25"  width="9.4"  height="4.6"  rx="2.3"  />
+</symbol>
+<symbol  id="Airport"  width="150"  height="150"  viewBox="0 0 150 150"  x="0"  y="0"  >
+  <path  fill="#000000"  fill-rule="evenodd"  stroke="none"   d="
+  M 90.000000,140.00000 L 102.50000,140.00000 L 77.500000,81.875000 L 120.00000,80.000000 L 132.50000,97.500000 L 140.00000,97.500000 L 135.00000,75.000000 L 140.00000,52.500000 L 132.50000,52.500000 L 120.00000,70.000000 L 77.500000,68.125000 L 102.50000,10.000000 L 90.000000,10.000000 L 47.814238,67.074953 C 40.626931,66.941654 33.438543,66.875000 26.250000,66.875000 L 26.250000,66.875000 C 20.444434,66.875000 15.079870,68.423616 12.177087,70.937500 C 9.2743043,73.451384 9.2743043,76.548616 12.177087,79.062500 C 15.079870,81.576384 20.444434,83.125000 26.250000,83.125000 L 26.250000,83.125000 C 33.438543,83.125000 40.626931,83.058346 47.814238,82.925047 L 90.000000,140.00000 z
+    "/>
+</symbol>
+<symbol  id="Stadium"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+  <symbol  id="StadiumGap"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+    <path  fill="#FFFFFF"  stroke-width="0.15"  stroke="#FFFFFF"   d="
+  M  0  0  L  -0.2  -4.1  L  0.2  -4.1  Z 
+    "/>
+  </symbol>
+  <rect   x="-6.25"  y="-3.75"  width="12.5"  height="7.5"  rx="3.75" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5" />
+  <rect   x="-6.25"  y="-3.75"  width="12.5"  height="7.5"  rx="3.75" fill="none"  stroke="#000000" stroke-width="0.5" />
+  <rect   x="-5.25"  y="-2.75"  width="10.5"  height="5.5"  rx="2.75" fill="none"  stroke="#000000" stroke-width="0.5" />
+  <rect   x="-4.25"  y="-1.75"  width="8.5"   height="3.5"  rx="1.75" fill="none"  stroke="#000000" stroke-width="0.5" />
+  <use  href="#StadiumGap"  x="0"    y="0"    />
+  <use  href="#StadiumGap"  x="2.5"  y="0" transform="rotate(  6    2.5  0 )"   />
+  <use  href="#StadiumGap"  x="2.5"  y="0" transform="rotate(  62   2.5  0 )"   />
+  <use  href="#StadiumGap"  x="2.5"  y="0" transform="rotate(  118  2.5  0 )"   />
+  <use  href="#StadiumGap"  x="2.5"  y="0" transform="rotate(  174  2.5  0 )"   />
+  <use  href="#StadiumGap"  x="0"    y="0" transform="rotate(  180  0    0 )"   />
+  <use  href="#StadiumGap"  x="-2.5" y="0" transform="rotate( -6   -2.5  0 )"   />
+  <use  href="#StadiumGap"  x="-2.5" y="0" transform="rotate( -62  -2.5  0 )"   />
+  <use  href="#StadiumGap"  x="-2.5" y="0" transform="rotate( -118 -2.5  0 )"   />
+  <use  href="#StadiumGap"  x="-2.5" y="0" transform="rotate( -174 -2.5  0 )"   /> 
+</symbol>
+<symbol  id="MetroEndMarker"  width="20"  height="20"  viewBox="-10 -10 20 20"  x="-10"  y="-10"  >
+  <rect  class="metroEndMarkerBackground"  x="-4"  y="-2.4"  width="8"  height="5"  rx="1"  />
+  <rect  class="metroEndMarker"  x="-3.5"  y="-1.9"  width="7"  height="4"  rx="0.5"  />
+</symbol>
+<symbol  id="EuropaTower"  width="40"  height="40"  viewBox="-20 -30 40 40"  x="-20"  y="-30"  >
+  <symbol  id="EuropaTowerSmallDish"  width="5"  height="1"  viewBox="-2.5 -1 5 1"  x="-2.5"  y="-1"  >
+    <path  stroke="none"  fill="#000000"   d="
+  M   0     0
+  L  -0.3   0
+  L  -2.4  -0.4
+  L  -2.4  -0.55
+  L   2.4  -0.55
+  L   2.4  -0.4
+  L   0.3   0 
+  Z
+    "/>
+  </symbol>
+  <path  stroke="none"  fill="#000000"   d="
+  M  -1.8   35  
+  L  -1.1   -9.4
+  L  -5.65 -12.45
+  L  -5.4  -12.9
+  L  -4.5  -12.9
+  L  -4.5  -14.0
+  L  -5.0  -14.0
+  L  -4.6  -14.9
+  L  -1.05 -14.9
+  L  -0.4  -29.7
+  L  -0.22 -30.2
+  L  -0.22 -34.25
+  L   0.22 -34.25
+  L   0.22 -30.2
+  L   0.4  -29.7
+  L   1.05 -14.9
+  L   4.6  -14.9
+  L   5.0  -14.0
+  L   4.5  -14.0
+  L   4.5  -12.9
+  L   5.4  -12.9
+  L   5.65 -12.45
+  L   1.1   -9.4
+  L   1.8   35
+  Z
+    "/>
+  <use  href="#EuropaTowerSmallDish"  x="0"  y="-16.6"   />
+  <use  href="#EuropaTowerSmallDish"  x="0"  y="-17.9"   />
+  <use  href="#EuropaTowerSmallDish"  x="0"  y="-19.2"   />
+  <use  href="#EuropaTowerSmallDish"  x="0"  y="-20.5"   />
+  <use  href="#EuropaTowerSmallDish"  x="0"  y="-21.8"   />
+  <use  href="#EuropaTowerSmallDish"  x="0"  y="-23.1"   />
+  <use  href="#EuropaTowerSmallDish"  x="0"  y="-24.4"   />
+</symbol>
+<rect x="-170" y="-15" width="620" height="440" fill="#fff" stroke="#CCCCCC" stroke-width="0.5" />
+<path  id="otherslineBackground-Z1"  class="otherslineBackground"  stroke="#FFFFFF"  stroke-width="11"  d="
+  M  -250  320
+  L  -157.911688245431  320
+  A  36  36  0  0  1  -132.455844122716  330.544155877284
+  L  -117.029437251523  345.970562748477
+  A  24  24  0  0  0  -100.058874503046  353
+  L  -55.9411254969543  353
+  A  24  24  0  0  0  -38.9705627484771  345.970562748477
+  L  1.06581410364015E-14  307
+  L  4.97056274847715  302.029437251523
+  A  24  24  0  0  1  21.9411254969543  295
+  L  120  295
+  L  132.520016025651  295
+  A  24  24  0  0  1  145  298.5
+  A  24  24  0  0  0  157.479983974349  302
+  L  170  302
+  L  205.514718625761  302
+  A  24  24  0  0  0  222.485281374239  294.970562748477
+  L  225.727922061358  291.727922061358
+  L  255.426406871193  262.029437251523
+  A  24  24  0  0  1  272.39696961967  255
+  L  278.272077938642  255
+  A  24  24  0  0  0  295.242640687119  247.970562748477
+  L  299.183766184074  244.029437251523
+  A  24  24  0  0  1  316.154328932551  237
+  L  322.202656599888  237
+  A  24  24  0  0  0  338.077164466275  231
+  A  24  24  0  0  1  353.951672332663  225
+  L  360  225
+  L  396.058874503046  225
+  A  24  24  0  0  1  413.029437251523  232.029437251523
+  L  506  325
+"/>
+<path  id="otherslineBackground-Z2"  class="otherslineBackground"  stroke="#FFFFFF"  stroke-width="17"  d="
+  M  -250  325
+  L  -158.254833995939  325
+  A  32  32  0  0  1  -135.62741699797  334.37258300203
+  L  -135  335
+  L  -114.37258300203  355.62741699797
+  A  32  32  0  0  1  -105  378.254833995939
+  L  -105  500
+"/>
+<path  id="otherslineBackground-Z3"  class="otherslineBackground"  stroke="#FFFFFF"  stroke-width="5"  d="
+  M  -4  307
+  L  -1.98528137423857  304.985281374239
+  A  12  12  0  0  0  -1.98528137423857  288.014718625761
+  L  -16.4852813742386  273.514718625761
+  A  12  12  0  0  1  -20  265.029437251523
+  L  -20  238.112698372208
+  A  12  12  0  0  1  -16.4852813742386  229.62741699797
+  L  27.0710678118655  186.071067811865
+  L  66.4852813742386  146.656854249492
+  A  12  12  0  0  0  70  138.171572875254
+  L  70  134.970562748477
+  A  12  12  0  0  1  73.5147186257614  126.485281374239
+  L  75.4852813742386  124.514718625761
+  A  12  12  0  0  1  83.9705627484771  121
+  L  105  121
+  L  124.715728752538  121
+  A  12  12  0  0  0  133.201010126777  117.485281374239
+  L  161.343145750508  89.3431457505076
+  L  232.171572875254  18.5147186257614
+  A  12  12  0  0  1  240.656854249492  15
+  L  240.029437251523  15
+  A  12  12  0  0  1  248.514718625761  18.5147186257614
+  L  261.485281374239  31.4852813742386
+  A  12  12  0  0  0  269.970562748477  35
+  L  360.029437251523  35
+  A  12  12  0  0  0  368.514718625761  31.4852813742386
+  L  440  -40
+"/>
+<path  id="othersline-Z1"  class="othersline"  stroke="#99CCFF"  stroke-width="10"  d="
+  M  -250  320
+  L  -157.911688245431  320
+  A  36  36  0  0  1  -132.455844122716  330.544155877284
+  L  -117.029437251523  345.970562748477
+  A  24  24  0  0  0  -100.058874503046  353
+  L  -55.9411254969543  353
+  A  24  24  0  0  0  -38.9705627484771  345.970562748477
+  L  1.06581410364015E-14  307
+  L  4.97056274847715  302.029437251523
+  A  24  24  0  0  1  21.9411254969543  295
+  L  120  295
+  L  132.520016025651  295
+  A  24  24  0  0  1  145  298.5
+  A  24  24  0  0  0  157.479983974349  302
+  L  170  302
+  L  205.514718625761  302
+  A  24  24  0  0  0  222.485281374239  294.970562748477
+  L  225.727922061358  291.727922061358
+  L  255.426406871193  262.029437251523
+  A  24  24  0  0  1  272.39696961967  255
+  L  278.272077938642  255
+  A  24  24  0  0  0  295.242640687119  247.970562748477
+  L  299.183766184074  244.029437251523
+  A  24  24  0  0  1  316.154328932551  237
+  L  322.202656599888  237
+  A  24  24  0  0  0  338.077164466275  231
+  A  24  24  0  0  1  353.951672332663  225
+  L  360  225
+  L  396.058874503046  225
+  A  24  24  0  0  1  413.029437251523  232.029437251523
+  L  506  325
+"/>
+<path  id="othersline-Z2"  class="othersline"  stroke="#99CCFF"  stroke-width="16"  d="
+  M  -250  325
+  L  -158.254833995939  325
+  A  32  32  0  0  1  -135.62741699797  334.37258300203
+  L  -135  335
+  L  -114.37258300203  355.62741699797
+  A  32  32  0  0  1  -105  378.254833995939
+  L  -105  500
+"/>
+<path  id="othersline-Z3"  class="othersline"  stroke="#99CCFF"  stroke-width="4"  d="
+  M  -4  307
+  L  -1.98528137423857  304.985281374239
+  A  12  12  0  0  0  -1.98528137423857  288.014718625761
+  L  -16.4852813742386  273.514718625761
+  A  12  12  0  0  1  -20  265.029437251523
+  L  -20  238.112698372208
+  A  12  12  0  0  1  -16.4852813742386  229.62741699797
+  L  27.0710678118655  186.071067811865
+  L  66.4852813742386  146.656854249492
+  A  12  12  0  0  0  70  138.171572875254
+  L  70  134.970562748477
+  A  12  12  0  0  1  73.5147186257614  126.485281374239
+  L  75.4852813742386  124.514718625761
+  A  12  12  0  0  1  83.9705627484771  121
+  L  105  121
+  L  124.715728752538  121
+  A  12  12  0  0  0  133.201010126777  117.485281374239
+  L  161.343145750508  89.3431457505076
+  L  232.171572875254  18.5147186257614
+  A  12  12  0  0  1  240.656854249492  15
+  L  240.029437251523  15
+  A  12  12  0  0  1  248.514718625761  18.5147186257614
+  L  261.485281374239  31.4852813742386
+  A  12  12  0  0  0  269.970562748477  35
+  L  360.029437251523  35
+  A  12  12  0  0  0  368.514718625761  31.4852813742386
+  L  440  -40
+"/>
+<path  id="otherslineInner-Z1"  class="otherslineInner"  stroke="#F0F7FF"  stroke-width="9.5"  d="
+  M  -250  320
+  L  -157.911688245431  320
+  A  36  36  0  0  1  -132.455844122716  330.544155877284
+  L  -117.029437251523  345.970562748477
+  A  24  24  0  0  0  -100.058874503046  353
+  L  -55.9411254969543  353
+  A  24  24  0  0  0  -38.9705627484771  345.970562748477
+  L  1.06581410364015E-14  307
+  L  4.97056274847715  302.029437251523
+  A  24  24  0  0  1  21.9411254969543  295
+  L  120  295
+  L  132.520016025651  295
+  A  24  24  0  0  1  145  298.5
+  A  24  24  0  0  0  157.479983974349  302
+  L  170  302
+  L  205.514718625761  302
+  A  24  24  0  0  0  222.485281374239  294.970562748477
+  L  225.727922061358  291.727922061358
+  L  255.426406871193  262.029437251523
+  A  24  24  0  0  1  272.39696961967  255
+  L  278.272077938642  255
+  A  24  24  0  0  0  295.242640687119  247.970562748477
+  L  299.183766184074  244.029437251523
+  A  24  24  0  0  1  316.154328932551  237
+  L  322.202656599888  237
+  A  24  24  0  0  0  338.077164466275  231
+  A  24  24  0  0  1  353.951672332663  225
+  L  360  225
+  L  396.058874503046  225
+  A  24  24  0  0  1  413.029437251523  232.029437251523
+  L  506  325
+"/>
+<path  id="otherslineInner-Z2"  class="otherslineInner"  stroke="#F0F7FF"  stroke-width="15.5"  d="
+  M  -250  325
+  L  -158.254833995939  325
+  A  32  32  0  0  1  -135.62741699797  334.37258300203
+  L  -135  335
+  L  -114.37258300203  355.62741699797
+  A  32  32  0  0  1  -105  378.254833995939
+  L  -105  500
+"/>
+<path  id="otherslineInner-Z3"  class="otherslineInner"  stroke="#F0F7FF"  stroke-width="3.5"  d="
+  M  -4  307
+  L  -1.98528137423857  304.985281374239
+  A  12  12  0  0  0  -1.98528137423857  288.014718625761
+  L  -16.4852813742386  273.514718625761
+  A  12  12  0  0  1  -20  265.029437251523
+  L  -20  238.112698372208
+  A  12  12  0  0  1  -16.4852813742386  229.62741699797
+  L  27.0710678118655  186.071067811865
+  L  66.4852813742386  146.656854249492
+  A  12  12  0  0  0  70  138.171572875254
+  L  70  134.970562748477
+  A  12  12  0  0  1  73.5147186257614  126.485281374239
+  L  75.4852813742386  124.514718625761
+  A  12  12  0  0  1  83.9705627484771  121
+  L  105  121
+  L  124.715728752538  121
+  A  12  12  0  0  0  133.201010126777  117.485281374239
+  L  161.343145750508  89.3431457505076
+  L  232.171572875254  18.5147186257614
+  A  12  12  0  0  1  240.656854249492  15
+  L  240.029437251523  15
+  A  12  12  0  0  1  248.514718625761  18.5147186257614
+  L  261.485281374239  31.4852813742386
+  A  12  12  0  0  0  269.970562748477  35
+  L  360.029437251523  35
+  A  12  12  0  0  0  368.514718625761  31.4852813742386
+  L  440  -40
+"/>
+<path  id="suburbanlineBackground-S5e"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  216
+  L  245  216
+  L  302.686291501015  216
+  A  8  8  0  0  0  308.343145750508  213.656854249492
+  L  310  212
+  L  316.656854249492  205.343145750508
+  A  8  8  0  0  1  322.313708498985  203
+  L  390  203
+  L  396.686291501015  203
+  A  8  8  0  0  1  402.343145750508  205.343145750508
+  L  418  221
+"/>
+<path  id="suburbanlineBackground-S5w"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  216
+  L  161.911688245431  216
+  A  32  32  0  0  0  139.284271247462  225.37258300203
+  L  109.171572875254  255.485281374239
+  A  12  12  0  0  1  100.686291501015  259
+  L  85.2842712474619  259
+  A  12  12  0  0  1  76.7989898732233  255.485281374239
+  L  71.5147186257614  250.201010126777
+  A  12  12  0  0  1  68  241.715728752538
+  L  68  203.313708498985
+  A  16  16  0  0  0  63.3137084989848  192
+  L  60  188.686291501015
+  A  16  16  0  0  0  48.6862915010152  184
+  L  39.6274169979695  184
+  A  8  8  0  0  1  33.9705627484771  181.656854249492
+  L  25.6568542494924  173.343145750508
+  L  17.3431457505076  165.029437251523
+  A  8  8  0  0  1  15  159.37258300203
+  L  15  85
+  L  15  68.3137084989848
+  A  8  8  0  0  1  17.3431457505076  62.6568542494924
+  L  40  40
+  L  65  15
+  L  77.6568542494924  2.34314575050762
+  A  8  8  0  0  1  83.3137084989848  0
+  L  100  0
+"/>
+<path  id="suburbanline-S5e"  class="suburbanline"  stroke="#3164BF"  d="
+  M  185  216
+  L  245  216
+  L  302.686291501015  216
+  A  8  8  0  0  0  308.343145750508  213.656854249492
+  L  310  212
+  L  316.656854249492  205.343145750508
+  A  8  8  0  0  1  322.313708498985  203
+  L  390  203
+  L  396.686291501015  203
+  A  8  8  0  0  1  402.343145750508  205.343145750508
+  L  418  221
+"/>
+<use  href="#StationShape-0-0"  x="339.969785777659"  y="203"  stroke="#3164BF"  transform="rotate(  90  339.969785777659  203  )"  />
+<use  href="#StationShape-0-0"  x="356.646523851773"  y="203"  stroke="#3164BF"  transform="rotate(  90  356.646523851773  203  )"  />
+<use  href="#StationShape-0-0"  x="373.323261925886"  y="203"  stroke="#3164BF"  transform="rotate(  90  373.323261925886  203  )"  />
+<use  href="#StationShape-0-0"  x="390"  y="203"  stroke="#3164BF"  transform="rotate(  90  390  203  )"  />
+<use  href="#StationShape-0-0"  x="406.827553337946"  y="209.827553337946"  stroke="#3164BF"  transform="rotate(  135  406.827553337946  209.827553337946  )"  />
+<path  id="suburbanline-S5w"  class="suburbanline"  stroke="#3164BF"  d="
+  M  185  216
+  L  161.911688245431  216
+  A  32  32  0  0  0  139.284271247462  225.37258300203
+  L  109.171572875254  255.485281374239
+  A  12  12  0  0  1  100.686291501015  259
+  L  85.2842712474619  259
+  A  12  12  0  0  1  76.7989898732233  255.485281374239
+  L  71.5147186257614  250.201010126777
+  A  12  12  0  0  1  68  241.715728752538
+  L  68  203.313708498985
+  A  16  16  0  0  0  63.3137084989848  192
+  L  60  188.686291501015
+  A  16  16  0  0  0  48.6862915010152  184
+  L  39.6274169979695  184
+  A  8  8  0  0  1  33.9705627484771  181.656854249492
+  L  25.6568542494924  173.343145750508
+  L  17.3431457505076  165.029437251523
+  A  8  8  0  0  1  15  159.37258300203
+  L  15  85
+  L  15  68.3137084989848
+  A  8  8  0  0  1  17.3431457505076  62.6568542494924
+  L  40  40
+  L  65  15
+  L  77.6568542494924  2.34314575050762
+  A  8  8  0  0  1  83.3137084989848  0
+  L  100  0
+"/>
+<use  href="#StationShape-0-0"  x="87.739308476558"  y="0"  stroke="#3164BF"  transform="rotate(  90  87.739308476558  0  )"  />
+<use  href="#TerminusShape-0-0"  x="100"  y="0"  stroke="#000000"  transform="rotate(  90  100  0  )"  />
+<path  id="suburbanlineBackground-S12n"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  -20  285
+  L  -32.6568542494924  272.343145750508
+  A  8  8  0  0  1  -35  266.686291501015
+  L  -35  225
+  L  -35  171.656854249492
+  A  8  8  0  0  1  -32.6568542494924  166
+  L  -12.8284271247462  146.171572875254
+  L  8.65685424949238  124.686291501015
+  A  8  8  0  0  0  11  119.029437251523
+  L  11  68.3137084989848
+  A  12  12  0  0  1  14.5147186257614  59.8284271247462
+  L  37.1715728752538  37.1715728752538
+  L  62.1715728752538  12.1715728752538
+"/>
+<path  id="suburbanline-S12n"  class="suburbanline"  stroke="#AA33AA"  d="
+  M  -20  285
+  L  -32.6568542494924  272.343145750508
+  A  8  8  0  0  1  -35  266.686291501015
+  L  -35  225
+  L  -35  171.656854249492
+  A  8  8  0  0  1  -32.6568542494924  166
+  L  -12.8284271247462  146.171572875254
+  L  8.65685424949238  124.686291501015
+  A  8  8  0  0  0  11  119.029437251523
+  L  11  68.3137084989848
+  A  12  12  0  0  1  14.5147186257614  59.8284271247462
+  L  37.1715728752538  37.1715728752538
+  L  62.1715728752538  12.1715728752538
+"/>
+<path  id="suburbanlineBackground-S13.2n"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  -39  225
+  L  -39  204.313708498985
+  A  8  8  0  0  0  -41.3431457505076  198.656854249492
+  L  -90  150
+"/>
+<path  id="suburbanlineBackground-S13n"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  -22.8284271247462  287.828427124746
+  L  -35.4852813742386  275.171572875254
+  A  12  12  0  0  1  -39  266.686291501015
+  L  -39  225
+  L  -39  181.313708498985
+  A  8  8  0  0  1  -36.6568542494924  175.656854249492
+  L  -9.99999999999999  149
+  L  36.6568542494924  102.343145750508
+  A  8  8  0  0  1  42.3137084989848  100
+  L  57  100
+  L  118  100
+"/>
+<path  id="suburbanlineBackground-S4w"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  220
+  L  161.911688245431  220
+  A  28  28  0  0  0  142.112698372208  228.201010126777
+  L  112  258.313708498985
+  A  16  16  0  0  1  100.686291501015  263
+  L  85.2842712474619  263
+  A  16  16  0  0  1  73.9705627484771  258.313708498985
+  L  68.6862915010152  253.029437251523
+  A  16  16  0  0  1  64  241.715728752538
+  L  64  203.313708498985
+  A  12  12  0  0  0  60.4852813742386  194.828427124746
+  L  57.1715728752538  191.514718625761
+  A  12  12  0  0  0  48.6862915010152  188
+  L  39.6274169979695  188
+  A  12  12  0  0  1  31.1421356237309  184.485281374239
+  L  22.8284271247462  176.171572875254
+  L  -7.17157287525381  146.171572875254
+  L  -74.1715728752538  79.1715728752538
+"/>
+<path  id="suburbanline-S13.2n"  class="suburbanline"  stroke="#AEC200"  d="
+  M  -39  225
+  L  -39  204.313708498985
+  A  8  8  0  0  0  -41.3431457505076  198.656854249492
+  L  -90  150
+"/>
+<use  href="#StationShape-0-0OuterBorder"  x="-73.0682114535949"  y="166.931788546405"  stroke="#AEC200"  fill="#DFF700"  transform="rotate(  -45  -73.0682114535949  166.931788546405  )"  />
+<path  id="suburbanline-S13n"  class="suburbanline"  stroke="#AEC200"  d="
+  M  -22.8284271247462  287.828427124746
+  L  -35.4852813742386  275.171572875254
+  A  12  12  0  0  1  -39  266.686291501015
+  L  -39  225
+  L  -39  181.313708498985
+  A  8  8  0  0  1  -36.6568542494924  175.656854249492
+  L  -9.99999999999999  149
+  L  36.6568542494924  102.343145750508
+  A  8  8  0  0  1  42.3137084989848  100
+  L  57  100
+  L  118  100
+"/>
+<use  href="#StationShape-0-0OuterBorder"  x="87.5"  y="100"  stroke="#AEC200"  fill="#DFF700"  transform="rotate(  90  87.5  100  )"  />
+<path  id="suburbanline-S4w"  class="suburbanline"  stroke="#77CC44"  d="
+  M  185  220
+  L  161.911688245431  220
+  A  28  28  0  0  0  142.112698372208  228.201010126777
+  L  112  258.313708498985
+  A  16  16  0  0  1  100.686291501015  263
+  L  85.2842712474619  263
+  A  16  16  0  0  1  73.9705627484771  258.313708498985
+  L  68.6862915010152  253.029437251523
+  A  16  16  0  0  1  64  241.715728752538
+  L  64  203.313708498985
+  A  12  12  0  0  0  60.4852813742386  194.828427124746
+  L  57.1715728752538  191.514718625761
+  A  12  12  0  0  0  48.6862915010152  188
+  L  39.6274169979695  188
+  A  12  12  0  0  1  31.1421356237309  184.485281374239
+  L  22.8284271247462  176.171572875254
+  L  -7.17157287525381  146.171572875254
+  L  -74.1715728752538  79.1715728752538
+"/>
+<use  href="#StationShape-0-0"  x="-57.4215728752538"  y="95.9215728752538"  stroke="#77CC44"  transform="rotate(  -45  -57.4215728752538  95.9215728752538  )"  />
+<use  href="#TerminusShape-0-0"  x="-74.1715728752538"  y="79.1715728752538"  stroke="#000000"  transform="rotate(  -45  -74.1715728752538  79.1715728752538  )"  />
+<path  id="suburbanlineInner-S13.2n"  class="suburbanlineInner"  stroke="#DFF700"  d="
+  M  -39  225
+  L  -39  204.313708498985
+  A  8  8  0  0  0  -41.3431457505076  198.656854249492
+  L  -90  150
+"/>
+<use  href="#StationShape-0-0InnerBorder"  x="-73.0682114535949"  y="166.931788546405"  stroke="#AEC200"  fill="#DFF700"  transform="rotate(  -45  -73.0682114535949  166.931788546405  )"  />
+<path  id="suburbanlineInner-S13n"  class="suburbanlineInner"  stroke="#DFF700"  d="
+  M  -22.8284271247462  287.828427124746
+  L  -35.4852813742386  275.171572875254
+  A  12  12  0  0  1  -39  266.686291501015
+  L  -39  225
+  L  -39  181.313708498985
+  A  8  8  0  0  1  -36.6568542494924  175.656854249492
+  L  -9.99999999999999  149
+  L  36.6568542494924  102.343145750508
+  A  8  8  0  0  1  42.3137084989848  100
+  L  57  100
+  L  118  100
+"/>
+<use  href="#StationShape-0-0InnerBorder"  x="87.5"  y="100"  stroke="#AEC200"  fill="#DFF700"  transform="rotate(  90  87.5  100  )"  />
+<path  id="suburbanlineBackground-S3w"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  224
+  L  161.911688245431  224
+  A  24  24  0  0  0  144.941125496954  231.029437251523
+  L  114.828427124746  261.142135623731
+  A  20  20  0  0  1  100.686291501015  267
+  L  85.2842712474619  267
+  A  20  20  0  0  1  71.142135623731  261.142135623731
+  L  65.857864376269  255.857864376269
+  A  20  20  0  0  1  60  241.715728752538
+  L  60  203.313708498985
+  A  8  8  0  0  0  57.6568542494924  197.656854249492
+  L  54.3431457505076  194.343145750508
+  A  8  8  0  0  0  48.6862915010152  192
+  L  39.6274169979695  192
+  A  16  16  0  0  1  28.3137084989848  187.313708498985
+  L  20  179
+  L  -10  149
+  L  -43.8431457505076  115.156854249492
+  A  8  8  0  0  0  -55.1568542494924  115.156854249492
+  L  -90  150
+"/>
+<path  id="suburbanline-S3w"  class="suburbanline"  stroke="#38C7FF"  d="
+  M  185  224
+  L  161.911688245431  224
+  A  24  24  0  0  0  144.941125496954  231.029437251523
+  L  114.828427124746  261.142135623731
+  A  20  20  0  0  1  100.686291501015  267
+  L  85.2842712474619  267
+  A  20  20  0  0  1  71.142135623731  261.142135623731
+  L  65.857864376269  255.857864376269
+  A  20  20  0  0  1  60  241.715728752538
+  L  60  203.313708498985
+  A  8  8  0  0  0  57.6568542494924  197.656854249492
+  L  54.3431457505076  194.343145750508
+  A  8  8  0  0  0  48.6862915010152  192
+  L  39.6274169979695  192
+  A  16  16  0  0  1  28.3137084989848  187.313708498985
+  L  20  179
+  L  -10  149
+  L  -43.8431457505076  115.156854249492
+  A  8  8  0  0  0  -55.1568542494924  115.156854249492
+  L  -90  150
+"/>
+<use  href="#StationShape-0-0OuterBorder"  x="-59.7468976228405"  y="119.746897622841"  stroke="#38C7FF"  fill="#88DDFF"  transform="rotate(  225  -59.7468976228405  119.746897622841  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="-69.8312650818937"  y="129.831265081894"  stroke="#38C7FF"  fill="#88DDFF"  transform="rotate(  225  -69.8312650818937  129.831265081894  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="-79.9156325409468"  y="139.915632540947"  stroke="#38C7FF"  fill="#88DDFF"  transform="rotate(  225  -79.9156325409468  139.915632540947  )"  />
+<path  id="suburbanlineInner-S3w"  class="suburbanlineInner"  stroke="#88DDFF"  d="
+  M  185  224
+  L  161.911688245431  224
+  A  24  24  0  0  0  144.941125496954  231.029437251523
+  L  114.828427124746  261.142135623731
+  A  20  20  0  0  1  100.686291501015  267
+  L  85.2842712474619  267
+  A  20  20  0  0  1  71.142135623731  261.142135623731
+  L  65.857864376269  255.857864376269
+  A  20  20  0  0  1  60  241.715728752538
+  L  60  203.313708498985
+  A  8  8  0  0  0  57.6568542494924  197.656854249492
+  L  54.3431457505076  194.343145750508
+  A  8  8  0  0  0  48.6862915010152  192
+  L  39.6274169979695  192
+  A  16  16  0  0  1  28.3137084989848  187.313708498985
+  L  20  179
+  L  -10  149
+  L  -43.8431457505076  115.156854249492
+  A  8  8  0  0  0  -55.1568542494924  115.156854249492
+  L  -90  150
+"/>
+<use  href="#StationShape-0-0InnerBorder"  x="-59.7468976228405"  y="119.746897622841"  stroke="#38C7FF"  fill="#88DDFF"  transform="rotate(  225  -59.7468976228405  119.746897622841  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="-69.8312650818937"  y="129.831265081894"  stroke="#38C7FF"  fill="#88DDFF"  transform="rotate(  225  -69.8312650818937  129.831265081894  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="-79.9156325409468"  y="139.915632540947"  stroke="#38C7FF"  fill="#88DDFF"  transform="rotate(  225  -79.9156325409468  139.915632540947  )"  />
+<path  id="metrolineBackground-A2n"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  197  240
+  L  197  116.313708498985
+  A  20  20  0  0  0  191.142135623731  102.171572875254
+  L  175.485281374239  86.5147186257614
+  L  162.343145750508  73.3725830020305
+  A  8  8  0  0  1  160  67.7157287525381
+  L  160  35
+  L  160  28
+  A  8  8  0  0  0  152  20
+  L  145  20
+  L  73.3137084989848  20
+  A  8  8  0  0  1  67.6568542494924  17.6568542494924
+  L  65  15
+"/>
+<path  id="metrolineBackground-A1n"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  185  240
+  L  185  116.313708498985
+  A  8  8  0  0  0  182.656854249492  110.656854249492
+  L  167  95
+  L  144.343145750508  72.3431457505076
+  A  8  8  0  0  0  138.686291501015  70
+  L  130  70
+  L  122  70
+  A  4  4  0  0  0  118  74
+  L  118  100
+"/>
+<path  id="metrolineBackground-A3n"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  189  240
+  L  189  116.313708498985
+  A  12  12  0  0  0  185.485281374239  107.828427124746
+  L  169.828427124746  92.1715728752538
+  L  147.171572875254  69.5147186257614
+  A  12  12  0  0  0  138.686291501015  66
+  L  130  66
+  L  88  66
+  L  69.3137084989848  66
+  A  8  8  0  0  1  63.6568542494924  63.6568542494924
+  L  40  40
+  L  2.34314575050763  2.34314575050762
+  A  8  8  0  0  0  -3.31370849898474  0
+  L  -60  0
+"/>
+<path  id="metrolineBackground-A4n"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  193  240
+  L  193  116.313708498985
+  A  16  16  0  0  0  188.313708498985  105
+  L  172.656854249492  89.3431457505076
+  L  150  66.6862915010152
+  A  16  16  0  0  0  138.686291501015  62
+  L  130  62
+  L  88  62
+  A  4  4  0  0  1  84  58
+  L  84  49
+  A  4  4  0  0  1  88  45
+  L  130  45
+"/>
+<path  id="metroline-A2n"  class="metroline"  stroke="#8FCC14"  d="
+  M  197  240
+  L  197  116.313708498985
+  A  20  20  0  0  0  191.142135623731  102.171572875254
+  L  175.485281374239  86.5147186257614
+  L  162.343145750508  73.3725830020305
+  A  8  8  0  0  1  160  67.7157287525381
+  L  160  35
+  L  160  28
+  A  8  8  0  0  0  152  20
+  L  145  20
+  L  73.3137084989848  20
+  A  8  8  0  0  1  67.6568542494924  17.6568542494924
+  L  65  15
+"/>
+<use  href="#StationShape-0-0OuterBorder"  x="160"  y="60.9131152238051"  stroke="#8FCC14"  fill="#BBEE55"  />
+<use  href="#StationShape-0-0OuterBorder"  x="160"  y="49.3961751243362"  stroke="#8FCC14"  fill="#BBEE55"  />
+<use  href="#StationShape-0-0OuterBorder"  x="122.116485886099"  y="20"  stroke="#8FCC14"  fill="#BBEE55"  transform="rotate(  -90  122.116485886099  20  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="91.0602881600902"  y="20"  stroke="#8FCC14"  fill="#BBEE55"  transform="rotate(  -90  91.0602881600902  20  )"  />
+<path  id="metrolineInner-A2n"  class="metrolineInner"  stroke="#BBEE55"  d="
+  M  197  240
+  L  197  116.313708498985
+  A  20  20  0  0  0  191.142135623731  102.171572875254
+  L  175.485281374239  86.5147186257614
+  L  162.343145750508  73.3725830020305
+  A  8  8  0  0  1  160  67.7157287525381
+  L  160  35
+  L  160  28
+  A  8  8  0  0  0  152  20
+  L  145  20
+  L  73.3137084989848  20
+  A  8  8  0  0  1  67.6568542494924  17.6568542494924
+  L  65  15
+"/>
+<use  href="#StationShape-0-0InnerBorder"  x="160"  y="60.9131152238051"  stroke="#8FCC14"  fill="#BBEE55"  />
+<use  href="#StationShape-0-0InnerBorder"  x="160"  y="49.3961751243362"  stroke="#8FCC14"  fill="#BBEE55"  />
+<use  href="#StationShape-0-0InnerBorder"  x="122.116485886099"  y="20"  stroke="#8FCC14"  fill="#BBEE55"  transform="rotate(  -90  122.116485886099  20  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="91.0602881600902"  y="20"  stroke="#8FCC14"  fill="#BBEE55"  transform="rotate(  -90  91.0602881600902  20  )"  />
+<path  id="metroline-A1n"  class="metroline"  stroke="#1F4E78"  d="
+  M  185  240
+  L  185  116.313708498985
+  A  8  8  0  0  0  182.656854249492  110.656854249492
+  L  167  95
+  L  144.343145750508  72.3431457505076
+  A  8  8  0  0  0  138.686291501015  70
+  L  130  70
+  L  122  70
+  A  4  4  0  0  0  118  74
+  L  118  100
+"/>
+<path  id="metroline-A3n"  class="metroline"  stroke="#CC9900"  d="
+  M  189  240
+  L  189  116.313708498985
+  A  12  12  0  0  0  185.485281374239  107.828427124746
+  L  169.828427124746  92.1715728752538
+  L  147.171572875254  69.5147186257614
+  A  12  12  0  0  0  138.686291501015  66
+  L  130  66
+  L  88  66
+  L  69.3137084989848  66
+  A  8  8  0  0  1  63.6568542494924  63.6568542494924
+  L  40  40
+  L  2.34314575050763  2.34314575050762
+  A  8  8  0  0  0  -3.31370849898474  0
+  L  -60  0
+"/>
+<use  href="#StationShape-0-0OuterBorder"  x="73.3936697672724"  y="66"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -90  73.3936697672724  66  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="30.1380402029997"  y="30.1380402029997"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -45  30.1380402029997  30.1380402029997  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="21.9197403721661"  y="21.9197403721661"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -45  21.9197403721661  21.9197403721661  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="13.7014405413325"  y="13.7014405413325"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -45  13.7014405413325  13.7014405413325  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="5.48314071049889"  y="5.48314071049888"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -45  5.48314071049889  5.48314071049888  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="-6.53681703009844"  y="0"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -90  -6.53681703009844  0  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="-26.2949498668012"  y="0"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -90  -26.2949498668012  0  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="-46.0530827035039"  y="0"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -90  -46.0530827035039  0  )"  />
+<path  id="metroline-A4n"  class="metroline"  stroke="#5D9DD5"  d="
+  M  193  240
+  L  193  116.313708498985
+  A  16  16  0  0  0  188.313708498985  105
+  L  172.656854249492  89.3431457505076
+  L  150  66.6862915010152
+  A  16  16  0  0  0  138.686291501015  62
+  L  130  62
+  L  88  62
+  A  4  4  0  0  1  84  58
+  L  84  49
+  A  4  4  0  0  1  88  45
+  L  130  45
+"/>
+<path  id="metrolineInner-A3n"  class="metrolineInner"  stroke="#FFC000"  d="
+  M  189  240
+  L  189  116.313708498985
+  A  12  12  0  0  0  185.485281374239  107.828427124746
+  L  169.828427124746  92.1715728752538
+  L  147.171572875254  69.5147186257614
+  A  12  12  0  0  0  138.686291501015  66
+  L  130  66
+  L  88  66
+  L  69.3137084989848  66
+  A  8  8  0  0  1  63.6568542494924  63.6568542494924
+  L  40  40
+  L  2.34314575050763  2.34314575050762
+  A  8  8  0  0  0  -3.31370849898474  0
+  L  -60  0
+"/>
+<use  href="#StationShape-0-0InnerBorder"  x="73.3936697672724"  y="66"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -90  73.3936697672724  66  )"  />
+<use  href="#TerminusShape-0-0"  x="58.5908232804612"  y="58.5908232804612"  stroke="#000000"  transform="rotate(  -45  58.5908232804612  58.5908232804612  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="30.1380402029997"  y="30.1380402029997"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -45  30.1380402029997  30.1380402029997  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="21.9197403721661"  y="21.9197403721661"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -45  21.9197403721661  21.9197403721661  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="13.7014405413325"  y="13.7014405413325"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -45  13.7014405413325  13.7014405413325  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="5.48314071049889"  y="5.48314071049888"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -45  5.48314071049889  5.48314071049888  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="-6.53681703009844"  y="0"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -90  -6.53681703009844  0  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="-26.2949498668012"  y="0"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -90  -26.2949498668012  0  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="-46.0530827035039"  y="0"  stroke="#CC9900"  fill="#FFC000"  transform="rotate(  -90  -46.0530827035039  0  )"  />
+<use  href="#TerminusShape-0-0"  x="-60"  y="0"  stroke="#000000"  transform="rotate(  -90  -60  0  )"  />
+<path  id="metrolineInner-A4n"  class="metrolineInner"  stroke="#9BC2E5"  d="
+  M  193  240
+  L  193  116.313708498985
+  A  16  16  0  0  0  188.313708498985  105
+  L  172.656854249492  89.3431457505076
+  L  150  66.6862915010152
+  A  16  16  0  0  0  138.686291501015  62
+  L  130  62
+  L  88  62
+  A  4  4  0  0  1  84  58
+  L  84  49
+  A  4  4  0  0  1  88  45
+  L  130  45
+"/>
+<path  id="metrolineBackground-C2e"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  185  204
+  L  245  204
+  L  283.343145750508  204
+  A  8  8  0  0  0  289  201.656854249492
+  L  367.828427124746  122.828427124746
+"/>
+<path  id="metrolineBackground-C2w"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  185  204
+  L  130.313708498985  204
+  A  8  8  0  0  1  124.656854249492  201.656854249492
+  L  120  197
+  L  85  162
+  L  59.3431457505076  136.343145750508
+  A  8  8  0  0  1  57  130.686291501015
+  L  57  100
+"/>
+<path  id="metroline-C2e"  class="metroline"  stroke="#AA0055"  d="
+  M  185  204
+  L  245  204
+  L  283.343145750508  204
+  A  8  8  0  0  0  289  201.656854249492
+  L  367.828427124746  122.828427124746
+"/>
+<use  href="#StationShape-0-0"  x="301.598022063679"  y="189.058832185814"  stroke="#AA0055"  transform="rotate(  45  301.598022063679  189.058832185814  )"  />
+<use  href="#StationShape-0-0"  x="309.876822696312"  y="180.78003155318"  stroke="#AA0055"  transform="rotate(  45  309.876822696312  180.78003155318  )"  />
+<use  href="#StationShape-0-0"  x="318.155623328945"  y="172.501230920547"  stroke="#AA0055"  transform="rotate(  45  318.155623328945  172.501230920547  )"  />
+<use  href="#StationShape-0-0"  x="326.434423961579"  y="164.222430287913"  stroke="#AA0055"  transform="rotate(  45  326.434423961579  164.222430287913  )"  />
+<path  id="metroline-C2w"  class="metroline"  stroke="#AA0055"  d="
+  M  185  204
+  L  130.313708498985  204
+  A  8  8  0  0  1  124.656854249492  201.656854249492
+  L  120  197
+  L  85  162
+  L  59.3431457505076  136.343145750508
+  A  8  8  0  0  1  57  130.686291501015
+  L  57  100
+"/>
+<use  href="#StationShape-0-0"  x="72.0504445006286"  y="149.050444500629"  stroke="#AA0055"  transform="rotate(  -45  72.0504445006286  149.050444500629  )"  />
+<use  href="#StationShape-0-0"  x="63.244746761056"  y="140.244746761056"  stroke="#AA0055"  transform="rotate(  -45  63.244746761056  140.244746761056  )"  />
+<use  href="#StationShape-0-0"  x="57"  y="129.301499222263"  stroke="#AA0055"  />
+<use  href="#StationShape-0-0"  x="57"  y="118.313437013914"  stroke="#AA0055"  />
+<use  href="#StationShape-0-0"  x="57"  y="107.325374805566"  stroke="#AA0055"  />
+<path  id="metrolineBackground-C1e"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  185  208
+  L  245  208
+  L  302.686291501015  208
+  A  8  8  0  0  1  308.343145750508  210.343145750508
+  L  310  212
+"/>
+<path  id="metrolineBackground-C1w"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  185  208
+  L  130.313708498985  208
+  A  12  12  0  0  1  121.828427124746  204.485281374239
+  L  117.171572875254  199.828427124746
+  L  82.1715728752538  164.828427124746
+  L  81.3431457505076  164
+  A  8  8  0  0  1  79  158.343145750508
+  L  79  132
+"/>
+<path  id="metroline-C1e"  class="metroline"  stroke="#00D6D6"  d="
+  M  185  208
+  L  245  208
+  L  302.686291501015  208
+  A  8  8  0  0  1  308.343145750508  210.343145750508
+  L  310  212
+"/>
+<path  id="metroline-C1w"  class="metroline"  stroke="#00D6D6"  d="
+  M  185  208
+  L  130.313708498985  208
+  A  12  12  0  0  1  121.828427124746  204.485281374239
+  L  117.171572875254  199.828427124746
+  L  82.1715728752538  164.828427124746
+  L  81.3431457505076  164
+  A  8  8  0  0  1  79  158.343145750508
+  L  79  132
+"/>
+<use  href="#StationShape-0-0OuterBorder"  x="79"  y="143.153308297871"  stroke="#00D6D6"  fill="#AAFFFF"  />
+<path  id="metrolineInner-C1e"  class="metrolineInner"  stroke="#AAFFFF"  d="
+  M  185  208
+  L  245  208
+  L  302.686291501015  208
+  A  8  8  0  0  1  308.343145750508  210.343145750508
+  L  310  212
+"/>
+<path  id="metrolineInner-C1w"  class="metrolineInner"  stroke="#AAFFFF"  d="
+  M  185  208
+  L  130.313708498985  208
+  A  12  12  0  0  1  121.828427124746  204.485281374239
+  L  117.171572875254  199.828427124746
+  L  82.1715728752538  164.828427124746
+  L  81.3431457505076  164
+  A  8  8  0  0  1  79  158.343145750508
+  L  79  132
+"/>
+<use  href="#StationShape-0-0InnerBorder"  x="79"  y="143.153308297871"  stroke="#00D6D6"  fill="#AAFFFF"  />
+<use  href="#TerminusShape-0-0"  x="79"  y="132"  stroke="#000000"  />
+<path  id="metrolineBackground-B3e"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  210.171572875254  276.171572875254
+  L  238.656854249492  247.686291501015
+  A  8  8  0  0  0  241  242.029437251523
+  L  241  240
+  L  241  201.313708498985
+  A  12  12  0  0  1  244.514718625761  192.828427124746
+  L  280.171572875254  157.171572875254
+"/>
+<path  id="metrolineBackground-B3w"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  210.171572875254  276.171572875254
+  L  207.686291501015  278.656854249492
+  A  8  8  0  0  1  202.029437251523  281
+  L  170  281
+  L  162.970562748477  281
+  A  8  8  0  0  1  157.313708498985  278.656854249492
+  L  116.343145750508  237.686291501015
+  A  8  8  0  0  1  114  232.029437251523
+  L  114  211.970562748477
+  A  8  8  0  0  1  116.343145750508  206.313708498985
+  L  122.828427124746  199.828427124746
+  L  140.485281374239  182.171572875254
+  A  12  12  0  0  0  144  173.686291501015
+  L  144  165
+  L  144  150.313708498985
+  A  12  12  0  0  0  140.485281374239  141.828427124746
+  L  135.828427124746  137.171572875254
+  L  120.343145750508  121.686291501015
+  A  8  8  0  0  1  118  116.029437251523
+  L  118  100
+"/>
+<path  id="metrolineBackground-B1w"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  213  279
+  L  210.514718625761  281.485281374239
+  A  12  12  0  0  1  202.029437251523  285
+  L  170  285
+  L  162.970562748477  285
+  A  12  12  0  0  1  154.485281374239  281.485281374239
+  L  113.514718625761  240.514718625761
+  A  12  12  0  0  1  110  232.029437251523
+  L  110  211.970562748477
+  A  12  12  0  0  1  113.514718625761  203.485281374239
+  L  120  197
+  L  137.656854249492  179.343145750508
+  A  8  8  0  0  0  140  173.686291501015
+  L  140  165
+  L  140  150.313708498985
+  A  8  8  0  0  0  137.656854249492  144.656854249492
+  L  133  140
+  L  116.343145750508  123.343145750508
+  A  8  8  0  0  1  114  117.686291501015
+  L  114  100
+  L  114  74
+  A  4  4  0  0  0  110  70
+  L  88  70
+  A  8  8  0  0  1  80  62
+  L  80  49
+  A  8  8  0  0  1  88  41
+  L  130  41
+  L  152  41
+  A  4  4  0  0  0  156  37
+  L  156  35
+  L  156  28
+  A  4  4  0  0  0  152  24
+  L  145  24
+"/>
+<path  id="metroline-B3e"  class="metroline"  stroke="#AA77CC"  d="
+  M  210.171572875254  276.171572875254
+  L  238.656854249492  247.686291501015
+  A  8  8  0  0  0  241  242.029437251523
+  L  241  240
+  L  241  201.313708498985
+  A  12  12  0  0  1  244.514718625761  192.828427124746
+  L  280.171572875254  157.171572875254
+"/>
+<path  id="metroline-B3w"  class="metroline"  stroke="#AA77CC"  d="
+  M  210.171572875254  276.171572875254
+  L  207.686291501015  278.656854249492
+  A  8  8  0  0  1  202.029437251523  281
+  L  170  281
+  L  162.970562748477  281
+  A  8  8  0  0  1  157.313708498985  278.656854249492
+  L  116.343145750508  237.686291501015
+  A  8  8  0  0  1  114  232.029437251523
+  L  114  211.970562748477
+  A  8  8  0  0  1  116.343145750508  206.313708498985
+  L  122.828427124746  199.828427124746
+  L  140.485281374239  182.171572875254
+  A  12  12  0  0  0  144  173.686291501015
+  L  144  165
+  L  144  150.313708498985
+  A  12  12  0  0  0  140.485281374239  141.828427124746
+  L  135.828427124746  137.171572875254
+  L  120.343145750508  121.686291501015
+  A  8  8  0  0  1  118  116.029437251523
+  L  118  100
+"/>
+<path  id="metroline-B1w"  class="metroline"  stroke="#60943C"  d="
+  M  213  279
+  L  210.514718625761  281.485281374239
+  A  12  12  0  0  1  202.029437251523  285
+  L  170  285
+  L  162.970562748477  285
+  A  12  12  0  0  1  154.485281374239  281.485281374239
+  L  113.514718625761  240.514718625761
+  A  12  12  0  0  1  110  232.029437251523
+  L  110  211.970562748477
+  A  12  12  0  0  1  113.514718625761  203.485281374239
+  L  120  197
+  L  137.656854249492  179.343145750508
+  A  8  8  0  0  0  140  173.686291501015
+  L  140  165
+  L  140  150.313708498985
+  A  8  8  0  0  0  137.656854249492  144.656854249492
+  L  133  140
+  L  116.343145750508  123.343145750508
+  A  8  8  0  0  1  114  117.686291501015
+  L  114  100
+  L  114  74
+  A  4  4  0  0  0  110  70
+  L  88  70
+  A  8  8  0  0  1  80  62
+  L  80  49
+  A  8  8  0  0  1  88  41
+  L  130  41
+  L  152  41
+  A  4  4  0  0  0  156  37
+  L  156  35
+  L  156  28
+  A  4  4  0  0  0  152  24
+  L  145  24
+"/>
+<path  id="suburbanlineBackground-S1e"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  228
+  L  245  228
+  L  256.686291501015  228
+  A  20  20  0  0  1  270.828427124746  233.857864376269
+  L  273.485281374239  236.514718625761
+  L  292.62741699797  255.656854249492
+  A  8  8  0  0  0  298.284271247462  258
+  L  365  258
+  L  369.686291501015  258
+  A  12  12  0  0  1  378.171572875254  261.514718625761
+  L  382.828427124746  266.171572875254
+  L  407.656854249492  291
+  A  8  8  0  0  1  410  296.656854249492
+  L  410  350
+"/>
+<path  id="suburbanlineBackground-S2e"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  232
+  L  245  232
+  L  256.686291501015  232
+  A  16  16  0  0  1  268  236.686291501015
+  L  270.656854249492  239.343145750508
+  L  289.798989873223  258.485281374239
+  A  12  12  0  0  0  298.284271247462  262
+  L  365  262
+  L  369.686291501015  262
+  A  8  8  0  0  1  375.343145750508  264.343145750508
+  L  380  269
+  L  387.656854249492  276.656854249492
+  A  8  8  0  0  1  390  282.313708498985
+  L  390  330
+"/>
+<path  id="suburbanlineBackground-S6w"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  212
+  L  161.911688245431  212
+  A  36  36  0  0  0  136.455844122716  222.544155877284
+  L  106.343145750508  252.656854249492
+  A  8  8  0  0  1  100.686291501015  255
+  L  85.2842712474619  255
+  A  8  8  0  0  1  79.6274169979695  252.656854249492
+  L  74.3431457505076  247.37258300203
+  A  8  8  0  0  1  72  241.715728752538
+  L  72  200
+  L  72  193.313708498985
+  A  8  8  0  0  1  74.3431457505076  187.656854249492
+  L  167  95
+  L  214  48
+  L  239.656854249492  22.3431457505076
+  A  8  8  0  0  1  245.313708498985  20
+  L  250  20
+  L  321.686291501015  20
+  A  8  8  0  0  0  327.343145750508  17.6568542494924
+  L  345  0
+"/>
+<path  id="suburbanline-S1e"  class="suburbanline"  stroke="#50A0F0"  d="
+  M  185  228
+  L  245  228
+  L  256.686291501015  228
+  A  20  20  0  0  1  270.828427124746  233.857864376269
+  L  273.485281374239  236.514718625761
+  L  292.62741699797  255.656854249492
+  A  8  8  0  0  0  298.284271247462  258
+  L  365  258
+  L  369.686291501015  258
+  A  12  12  0  0  1  378.171572875254  261.514718625761
+  L  382.828427124746  266.171572875254
+  L  407.656854249492  291
+  A  8  8  0  0  1  410  296.656854249492
+  L  410  350
+"/>
+<use  href="#StationShape-0-0"  x="395.556643053799"  y="278.899788804307"  stroke="#50A0F0"  transform="rotate(  135  395.556643053799  278.899788804307  )"  />
+<use  href="#StationShape-0-0"  x="402.925610170619"  y="286.268755921127"  stroke="#50A0F0"  transform="rotate(  135  402.925610170619  286.268755921127  )"  />
+<use  href="#StationShape-0-0"  x="410"  y="298.840924107857"  stroke="#50A0F0"  transform="rotate(  180  410  298.840924107857  )"  />
+<use  href="#StationShape-0-0"  x="410"  y="307.367436756547"  stroke="#50A0F0"  transform="rotate(  180  410  307.367436756547  )"  />
+<use  href="#StationShape-0-0"  x="410"  y="315.893949405238"  stroke="#50A0F0"  transform="rotate(  180  410  315.893949405238  )"  />
+<use  href="#StationShape-0-0"  x="410"  y="324.420462053928"  stroke="#50A0F0"  transform="rotate(  180  410  324.420462053928  )"  />
+<use  href="#StationShape-0-0"  x="410"  y="332.946974702619"  stroke="#50A0F0"  transform="rotate(  180  410  332.946974702619  )"  />
+<use  href="#StationShape-0-0"  x="410"  y="341.473487351309"  stroke="#50A0F0"  transform="rotate(  180  410  341.473487351309  )"  />
+<use  href="#TerminusShape-0-0"  x="410"  y="350"  stroke="#000000"  transform="rotate(  180  410  350  )"  />
+<path  id="suburbanline-S2e"  class="suburbanline"  stroke="#EE4444"  d="
+  M  185  232
+  L  245  232
+  L  256.686291501015  232
+  A  16  16  0  0  1  268  236.686291501015
+  L  270.656854249492  239.343145750508
+  L  289.798989873223  258.485281374239
+  A  12  12  0  0  0  298.284271247462  262
+  L  365  262
+  L  369.686291501015  262
+  A  8  8  0  0  1  375.343145750508  264.343145750508
+  L  380  269
+  L  387.656854249492  276.656854249492
+  A  8  8  0  0  1  390  282.313708498985
+  L  390  330
+"/>
+<use  href="#StationShape-0-0"  x="390"  y="293.065194758224"  stroke="#EE4444"  transform="rotate(  180  390  293.065194758224  )"  />
+<use  href="#StationShape-0-0"  x="390"  y="305.376796505482"  stroke="#EE4444"  transform="rotate(  180  390  305.376796505482  )"  />
+<use  href="#StationShape-0-0"  x="390"  y="317.688398252741"  stroke="#EE4444"  transform="rotate(  180  390  317.688398252741  )"  />
+<use  href="#TerminusShape-0-0"  x="390"  y="330"  stroke="#000000"  transform="rotate(  180  390  330  )"  />
+<path  id="suburbanline-S6w"  class="suburbanline"  stroke="#FF7744"  d="
+  M  185  212
+  L  161.911688245431  212
+  A  36  36  0  0  0  136.455844122716  222.544155877284
+  L  106.343145750508  252.656854249492
+  A  8  8  0  0  1  100.686291501015  255
+  L  85.2842712474619  255
+  A  8  8  0  0  1  79.6274169979695  252.656854249492
+  L  74.3431457505076  247.37258300203
+  A  8  8  0  0  1  72  241.715728752538
+  L  72  200
+  L  72  193.313708498985
+  A  8  8  0  0  1  74.3431457505076  187.656854249492
+  L  167  95
+  L  214  48
+  L  239.656854249492  22.3431457505076
+  A  8  8  0  0  1  245.313708498985  20
+  L  250  20
+  L  321.686291501015  20
+  A  8  8  0  0  0  327.343145750508  17.6568542494924
+  L  345  0
+"/>
+<use  href="#StationShape-0-0"  x="226.362974904055"  y="35.6370250959449"  stroke="#FF7744"  transform="rotate(  45  226.362974904055  35.6370250959449  )"  />
+<use  href="#StationShape-0-0"  x="234.716336325714"  y="27.283663674286"  stroke="#FF7744"  transform="rotate(  45  234.716336325714  27.283663674286  )"  />
+<use  href="#TerminusShape-0-0"  x="261.323404351234"  y="20"  stroke="#000000"  transform="rotate(  90  261.323404351234  20  )"  />
+<use  href="#StationShape-0-0"  x="278.823211075868"  y="20"  stroke="#FF7744"  transform="rotate(  90  278.823211075868  20  )"  />
+<use  href="#TerminusShape-0-0"  x="296.323017800502"  y="20"  stroke="#000000"  transform="rotate(  90  296.323017800502  20  )"  />
+<use  href="#StationShape-0-0"  x="313.822824525137"  y="20"  stroke="#FF7744"  transform="rotate(  90  313.822824525137  20  )"  />
+<use  href="#StationShape-0-0"  x="330.442079994773"  y="14.5579200052268"  stroke="#FF7744"  transform="rotate(  45  330.442079994773  14.5579200052268  )"  />
+<use  href="#StationShape-0-0"  x="337.721039997387"  y="7.27896000261341"  stroke="#FF7744"  transform="rotate(  45  337.721039997387  7.27896000261341  )"  />
+<use  href="#TerminusShape-0-0"  x="345"  y="0"  stroke="#000000"  transform="rotate(  45  345  0  )"  />
+<path  id="metrolineBackground-A2s"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  197  240
+  L  197  242.715728752538
+  A  8  8  0  0  0  199.343145750508  248.37258300203
+  L  221.485281374239  270.514718625761
+  L  248.485281374239  297.514718625761
+"/>
+<path  id="metroline-A2s"  class="metroline"  stroke="#8FCC14"  d="
+  M  197  240
+  L  197  242.715728752538
+  A  8  8  0  0  0  199.343145750508  248.37258300203
+  L  221.485281374239  270.514718625761
+  L  248.485281374239  297.514718625761
+"/>
+<path  id="metrolineInner-A2s"  class="metrolineInner"  stroke="#BBEE55"  d="
+  M  197  240
+  L  197  242.715728752538
+  A  8  8  0  0  0  199.343145750508  248.37258300203
+  L  221.485281374239  270.514718625761
+  L  248.485281374239  297.514718625761
+"/>
+<path  id="metrolineBackground-A3s"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  189  240
+  L  189  242.715728752538
+  A  16  16  0  0  0  193.686291501015  254.029437251523
+  L  215.828427124746  276.171572875254
+  L  242.828427124746  303.171572875254
+"/>
+<path  id="metroline-A3s"  class="metroline"  stroke="#CC9900"  d="
+  M  189  240
+  L  189  242.715728752538
+  A  16  16  0  0  0  193.686291501015  254.029437251523
+  L  215.828427124746  276.171572875254
+  L  242.828427124746  303.171572875254
+"/>
+<path  id="metrolineInner-A3s"  class="metrolineInner"  stroke="#FFC000"  d="
+  M  189  240
+  L  189  242.715728752538
+  A  16  16  0  0  0  193.686291501015  254.029437251523
+  L  215.828427124746  276.171572875254
+  L  242.828427124746  303.171572875254
+"/>
+<path  id="metrolineBackground-B2w"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  215.828427124746  281.828427124746
+  L  213.343145750508  284.313708498985
+  A  16  16  0  0  1  202.029437251523  289
+  L  170  289
+  L  162.970562748477  289
+  A  16  16  0  0  1  151.656854249492  284.313708498985
+  L  110.686291501015  243.343145750508
+  A  8  8  0  0  0  105.029437251523  241
+  L  0  241
+"/>
+<path  id="metrolineBackground-A1s"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  185  240
+  L  185  242.715728752538
+  A  20  20  0  0  0  190.857864376269  256.857864376269
+  L  213  279
+  L  240  306
+"/>
+<path  id="suburbanlineBackground-S1w"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  228
+  L  161.911688245431  228
+  A  20  20  0  0  0  147.7695526217  233.857864376269
+  L  127.313708498985  254.313708498985
+  L  107.970562748477  273.656854249492
+  A  8  8  0  0  1  102.313708498985  276
+  L  40  276
+  L  -11.6862915010153  276
+  A  12  12  0  0  0  -20.1715728752538  279.514718625761
+  L  -22.8284271247462  282.171572875254
+  L  -80.3137084989848  339.656854249492
+  A  8  8  0  0  1  -85.9705627484772  342
+  L  -95  342
+  L  -97.6862915010152  342
+  A  8  8  0  0  1  -103.343145750508  339.656854249492
+  L  -113  330
+  L  -117.656854249492  325.343145750508
+  A  8  8  0  0  1  -120  319.686291501015
+  L  -120  300
+"/>
+<path  id="suburbanlineBackground-S8e"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  240
+  L  245  240
+  L  256.686291501015  240
+  A  8  8  0  0  1  262.343145750508  242.343145750508
+  L  265  245
+  L  284.142135623731  264.142135623731
+  A  20  20  0  0  0  298.284271247462  270
+  L  365  270
+  L  369.686291501015  270
+  A  12  12  0  0  0  378.171572875254  266.485281374239
+  L  420.828427124746  223.828427124746
+"/>
+<path  id="suburbanlineBackground-S9e"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  236
+  L  245  236
+  L  256.686291501015  236
+  A  12  12  0  0  1  265.171572875254  239.514718625761
+  L  267.828427124746  242.171572875254
+  L  286.970562748477  261.313708498985
+  A  16  16  0  0  0  298.284271247462  266
+  L  365  266
+  L  369.686291501015  266
+  A  8  8  0  0  0  375.343145750508  263.656854249492
+  L  418  221
+"/>
+<path  id="metroline-B2w"  class="metroline"  stroke="#C2AE00"  d="
+  M  215.828427124746  281.828427124746
+  L  213.343145750508  284.313708498985
+  A  16  16  0  0  1  202.029437251523  289
+  L  170  289
+  L  162.970562748477  289
+  A  16  16  0  0  1  151.656854249492  284.313708498985
+  L  110.686291501015  243.343145750508
+  A  8  8  0  0  0  105.029437251523  241
+  L  0  241
+"/>
+<use  href="#StationShape-0-0OuterBorder"  x="94.6496511669736"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -90  94.6496511669736  241  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="55.1672252516075"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -90  55.1672252516075  241  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="41.3754189387056"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -90  41.3754189387056  241  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="27.5836126258037"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -90  27.5836126258037  241  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="13.7918063129019"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -90  13.7918063129019  241  )"  />
+<path  id="metrolineInner-B2w"  class="metrolineInner"  stroke="#F7DD00"  d="
+  M  215.828427124746  281.828427124746
+  L  213.343145750508  284.313708498985
+  A  16  16  0  0  1  202.029437251523  289
+  L  170  289
+  L  162.970562748477  289
+  A  16  16  0  0  1  151.656854249492  284.313708498985
+  L  110.686291501015  243.343145750508
+  A  8  8  0  0  0  105.029437251523  241
+  L  0  241
+"/>
+<use  href="#StationShape-0-0InnerBorder"  x="94.6496511669736"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -90  94.6496511669736  241  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="55.1672252516075"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -90  55.1672252516075  241  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="41.3754189387056"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -90  41.3754189387056  241  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="27.5836126258037"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -90  27.5836126258037  241  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="13.7918063129019"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -90  13.7918063129019  241  )"  />
+<use  href="#TerminusShape-0-0"  x="0"  y="241"  stroke="#000000"  transform="rotate(  -90  0  241  )"  />
+<path  id="metroline-A1s"  class="metroline"  stroke="#1F4E78"  d="
+  M  185  240
+  L  185  242.715728752538
+  A  20  20  0  0  0  190.857864376269  256.857864376269
+  L  213  279
+  L  240  306
+"/>
+<path  id="suburbanline-S1w"  class="suburbanline"  stroke="#50A0F0"  d="
+  M  185  228
+  L  161.911688245431  228
+  A  20  20  0  0  0  147.7695526217  233.857864376269
+  L  127.313708498985  254.313708498985
+  L  107.970562748477  273.656854249492
+  A  8  8  0  0  1  102.313708498985  276
+  L  40  276
+  L  -11.6862915010153  276
+  A  12  12  0  0  0  -20.1715728752538  279.514718625761
+  L  -22.8284271247462  282.171572875254
+  L  -80.3137084989848  339.656854249492
+  A  8  8  0  0  1  -85.9705627484772  342
+  L  -95  342
+  L  -97.6862915010152  342
+  A  8  8  0  0  1  -103.343145750508  339.656854249492
+  L  -113  330
+  L  -117.656854249492  325.343145750508
+  A  8  8  0  0  1  -120  319.686291501015
+  L  -120  300
+"/>
+<use  href="#StationShape-0-0"  x="-52.8861209989749"  y="312.229266749483"  stroke="#50A0F0"  transform="rotate(  225  -52.8861209989749  312.229266749483  )"  />
+<use  href="#StationShape-0-0"  x="-60.4005444675321"  y="319.74369021804"  stroke="#50A0F0"  transform="rotate(  225  -60.4005444675321  319.74369021804  )"  />
+<use  href="#StationShape-0-0"  x="-67.9149679360893"  y="327.258113686597"  stroke="#50A0F0"  transform="rotate(  225  -67.9149679360893  327.258113686597  )"  />
+<use  href="#StationShape-0-0"  x="-75.4293914046465"  y="334.772537155154"  stroke="#50A0F0"  transform="rotate(  225  -75.4293914046465  334.772537155154  )"  />
+<use  href="#StationShape-0-0"  x="-92.1017273865505"  y="342"  stroke="#50A0F0"  transform="rotate(  -90  -92.1017273865505  342  )"  />
+<path  id="suburbanline-S8e"  class="suburbanline"  stroke="#FF52DC"  d="
+  M  185  240
+  L  245  240
+  L  256.686291501015  240
+  A  8  8  0  0  1  262.343145750508  242.343145750508
+  L  265  245
+  L  284.142135623731  264.142135623731
+  A  20  20  0  0  0  298.284271247462  270
+  L  365  270
+  L  369.686291501015  270
+  A  12  12  0  0  0  378.171572875254  266.485281374239
+  L  420.828427124746  223.828427124746
+"/>
+<path  id="suburbanline-S9e"  class="suburbanline"  stroke="#226644"  d="
+  M  185  236
+  L  245  236
+  L  256.686291501015  236
+  A  12  12  0  0  1  265.171572875254  239.514718625761
+  L  267.828427124746  242.171572875254
+  L  286.970562748477  261.313708498985
+  A  16  16  0  0  0  298.284271247462  266
+  L  365  266
+  L  369.686291501015  266
+  A  8  8  0  0  0  375.343145750508  263.656854249492
+  L  418  221
+"/>
+<path  id="suburbanlineInner-S8e"  class="suburbanlineInner"  stroke="#FFAAEE"  d="
+  M  185  240
+  L  245  240
+  L  256.686291501015  240
+  A  8  8  0  0  1  262.343145750508  242.343145750508
+  L  265  245
+  L  284.142135623731  264.142135623731
+  A  20  20  0  0  0  298.284271247462  270
+  L  365  270
+  L  369.686291501015  270
+  A  12  12  0  0  0  378.171572875254  266.485281374239
+  L  420.828427124746  223.828427124746
+"/>
+<path  id="metrolineBackground-B1e"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  213  279
+  L  241.485281374239  250.514718625761
+  A  12  12  0  0  0  245  242.029437251523
+  L  245  240
+  L  245  201.313708498985
+  A  8  8  0  0  1  247.343145750508  195.656854249492
+  L  283  160
+  L  283.656854249492  159.343145750508
+  A  8  8  0  0  1  289.313708498985  157
+  L  324.686291501015  157
+  A  8  8  0  0  0  330.343145750508  154.656854249492
+  L  365  120
+"/>
+<path  id="metroline-B1e"  class="metroline"  stroke="#60943C"  d="
+  M  213  279
+  L  241.485281374239  250.514718625761
+  A  12  12  0  0  0  245  242.029437251523
+  L  245  240
+  L  245  201.313708498985
+  A  8  8  0  0  1  247.343145750508  195.656854249492
+  L  283  160
+  L  283.656854249492  159.343145750508
+  A  8  8  0  0  1  289.313708498985  157
+  L  324.686291501015  157
+  A  8  8  0  0  0  330.343145750508  154.656854249492
+  L  365  120
+"/>
+<path  id="metrolineBackground-B2e"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  215.828427124746  281.828427124746
+  L  244.313708498985  253.343145750508
+  A  16  16  0  0  0  249  242.029437251523
+  L  249  240
+  L  249  86.3137084989848
+  A  8  8  0  0  0  246.656854249492  80.6568542494924
+  L  243  77
+  L  214  48
+"/>
+<path  id="metrolineBackground-A4s"  class="metrolineBackground"  stroke="#FFFFFF"  d="
+  M  193  240
+  L  193  242.715728752538
+  A  12  12  0  0  0  196.514718625761  251.201010126777
+  L  218.656854249492  273.343145750508
+  L  245.656854249492  300.343145750508
+"/>
+<path  id="metroline-B2e"  class="metroline"  stroke="#C2AE00"  d="
+  M  215.828427124746  281.828427124746
+  L  244.313708498985  253.343145750508
+  A  16  16  0  0  0  249  242.029437251523
+  L  249  240
+  L  249  86.3137084989848
+  A  8  8  0  0  0  246.656854249492  80.6568542494924
+  L  243  77
+  L  214  48
+"/>
+<use  href="#StationShape-0-0OuterBorder"  x="249"  y="155.778064661441"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0OuterBorder"  x="249"  y="140.915370189931"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0OuterBorder"  x="249"  y="129.355496712089"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0OuterBorder"  x="249"  y="121.098444227917"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0OuterBorder"  x="249"  y="112.841391743745"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0OuterBorder"  x="249"  y="104.584339259572"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0OuterBorder"  x="249"  y="96.3272867753997"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0OuterBorder"  x="249"  y="88.0702342912273"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0OuterBorder"  x="243"  y="77"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -45  243  77  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="235.75"  y="69.75"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -45  235.75  69.75  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="228.5"  y="62.5"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -45  228.5  62.5  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="221.25"  y="55.25"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -45  221.25  55.25  )"  />
+<path  id="metrolineInner-B2e"  class="metrolineInner"  stroke="#F7DD00"  d="
+  M  215.828427124746  281.828427124746
+  L  244.313708498985  253.343145750508
+  A  16  16  0  0  0  249  242.029437251523
+  L  249  240
+  L  249  86.3137084989848
+  A  8  8  0  0  0  246.656854249492  80.6568542494924
+  L  243  77
+  L  214  48
+"/>
+<use  href="#StationShape-0-0InnerBorder"  x="249"  y="155.778064661441"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0InnerBorder"  x="249"  y="140.915370189931"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0InnerBorder"  x="249"  y="129.355496712089"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0InnerBorder"  x="249"  y="121.098444227917"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0InnerBorder"  x="249"  y="112.841391743745"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0InnerBorder"  x="249"  y="104.584339259572"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0InnerBorder"  x="249"  y="96.3272867753997"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0InnerBorder"  x="249"  y="88.0702342912273"  stroke="#C2AE00"  fill="#F7DD00"  />
+<use  href="#StationShape-0-0InnerBorder"  x="243"  y="77"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -45  243  77  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="235.75"  y="69.75"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -45  235.75  69.75  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="228.5"  y="62.5"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -45  228.5  62.5  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="221.25"  y="55.25"  stroke="#C2AE00"  fill="#F7DD00"  transform="rotate(  -45  221.25  55.25  )"  />
+<path  id="metroline-A4s"  class="metroline"  stroke="#5D9DD5"  d="
+  M  193  240
+  L  193  242.715728752538
+  A  12  12  0  0  0  196.514718625761  251.201010126777
+  L  218.656854249492  273.343145750508
+  L  245.656854249492  300.343145750508
+"/>
+<path  id="metrolineInner-A4s"  class="metrolineInner"  stroke="#9BC2E5"  d="
+  M  193  240
+  L  193  242.715728752538
+  A  12  12  0  0  0  196.514718625761  251.201010126777
+  L  218.656854249492  273.343145750508
+  L  245.656854249492  300.343145750508
+"/>
+<path  id="suburbanlineBackground-S3e"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  224
+  L  245  224
+  L  256.686291501015  224
+  A  24  24  0  0  1  273.656854249492  231.029437251523
+  L  278.656854249492  236.029437251523
+  A  8  8  0  0  1  281  241.686291501015
+  L  281  261.686291501015
+  A  8  8  0  0  1  278.656854249492  267.343145750508
+  L  240  306
+"/>
+<path  id="suburbanlineBackground-S4e"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  220
+  L  245  220
+  L  256.686291501015  220
+  A  28  28  0  0  1  276.485281374239  228.201010126777
+  L  281.485281374239  233.201010126777
+  A  12  12  0  0  1  285  241.686291501015
+  L  285  261.686291501015
+  A  12  12  0  0  1  281.485281374239  270.171572875254
+  L  242.828427124746  308.828427124746
+"/>
+<path  id="suburbanlineBackground-S6e"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  212
+  L  245  212
+  L  259.313708498985  212
+  A  16  16  0  0  1  270.627416997969  216.686291501015
+  L  284.313708498985  230.372583002031
+  A  16  16  0  0  1  289  241.686291501015
+  L  289  261.686291501015
+  A  16  16  0  0  1  284.313708498985  273
+  L  245.656854249492  311.656854249492
+  L  243.656854249492  313.656854249492
+  A  8  8  0  0  1  238  316
+  L  183.313708498985  316
+  A  8  8  0  0  0  177.656854249492  318.343145750508
+  L  172.343145750508  323.656854249492
+  A  8  8  0  0  0  170  329.313708498985
+  L  170  337
+  L  170  355
+  L  170  415
+"/>
+<path  id="suburbanline-S3e"  class="suburbanline"  stroke="#38C7FF"  d="
+  M  185  224
+  L  245  224
+  L  256.686291501015  224
+  A  24  24  0  0  1  273.656854249492  231.029437251523
+  L  278.656854249492  236.029437251523
+  A  8  8  0  0  1  281  241.686291501015
+  L  281  261.686291501015
+  A  8  8  0  0  1  278.656854249492  267.343145750508
+  L  240  306
+"/>
+<path  id="suburbanline-S4e"  class="suburbanline"  stroke="#77CC44"  d="
+  M  185  220
+  L  245  220
+  L  256.686291501015  220
+  A  28  28  0  0  1  276.485281374239  228.201010126777
+  L  281.485281374239  233.201010126777
+  A  12  12  0  0  1  285  241.686291501015
+  L  285  261.686291501015
+  A  12  12  0  0  1  281.485281374239  270.171572875254
+  L  242.828427124746  308.828427124746
+"/>
+<path  id="suburbanline-S6e"  class="suburbanline"  stroke="#FF7744"  d="
+  M  185  212
+  L  245  212
+  L  259.313708498985  212
+  A  16  16  0  0  1  270.627416997969  216.686291501015
+  L  284.313708498985  230.372583002031
+  A  16  16  0  0  1  289  241.686291501015
+  L  289  261.686291501015
+  A  16  16  0  0  1  284.313708498985  273
+  L  245.656854249492  311.656854249492
+  L  243.656854249492  313.656854249492
+  A  8  8  0  0  1  238  316
+  L  183.313708498985  316
+  A  8  8  0  0  0  177.656854249492  318.343145750508
+  L  172.343145750508  323.656854249492
+  A  8  8  0  0  0  170  329.313708498985
+  L  170  337
+  L  170  355
+  L  170  415
+"/>
+<use  href="#StationShape-0-0"  x="213.64186413866"  y="316"  stroke="#FF7744"  transform="rotate(  -90  213.64186413866  316  )"  />
+<use  href="#StationShape-0-0"  x="175.002638428917"  y="320.997361571083"  stroke="#FF7744"  transform="rotate(  225  175.002638428917  320.997361571083  )"  />
+<use  href="#StationShape-0-0"  x="170"  y="363.571428571429"  stroke="#FF7744"  transform="rotate(  180  170  363.571428571429  )"  />
+<use  href="#TerminusShape-0-0"  x="170"  y="372.142857142857"  stroke="#000000"  transform="rotate(  180  170  372.142857142857  )"  />
+<use  href="#StationShape-0-0"  x="170"  y="380.714285714286"  stroke="#FF7744"  transform="rotate(  180  170  380.714285714286  )"  />
+<use  href="#StationShape-0-0"  x="170"  y="389.285714285714"  stroke="#FF7744"  transform="rotate(  180  170  389.285714285714  )"  />
+<use  href="#StationShape-0-0"  x="170"  y="397.857142857143"  stroke="#FF7744"  transform="rotate(  180  170  397.857142857143  )"  />
+<use  href="#StationShape-0-0"  x="170"  y="406.428571428571"  stroke="#FF7744"  transform="rotate(  180  170  406.428571428571  )"  />
+<use  href="#TerminusShape-0-0"  x="170"  y="415"  stroke="#000000"  transform="rotate(  180  170  415  )"  />
+<path  id="suburbanlineInner-S3e"  class="suburbanlineInner"  stroke="#88DDFF"  d="
+  M  185  224
+  L  245  224
+  L  256.686291501015  224
+  A  24  24  0  0  1  273.656854249492  231.029437251523
+  L  278.656854249492  236.029437251523
+  A  8  8  0  0  1  281  241.686291501015
+  L  281  261.686291501015
+  A  8  8  0  0  1  278.656854249492  267.343145750508
+  L  240  306
+"/>
+<path  id="suburbanlineBackground-S12s"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  -20  285
+  L  9.65685424949238  314.656854249492
+  A  8  8  0  0  0  15.3137084989848  317
+  L  25  317
+  L  90  317
+  L  158  317
+  A  8  8  0  0  1  166  325
+  L  166  337
+  L  166  339
+  A  4  4  0  0  0  170  343
+  L  265  343
+"/>
+<path  id="suburbanlineBackground-S13s"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  -22.8284271247462  287.828427124746
+  L  6.82842712474617  317.485281374239
+  A  12  12  0  0  0  15.3137084989847  321
+  L  25  321
+  L  90  321
+  L  158  321
+  A  4  4  0  0  1  162  325
+  L  162  337
+  L  162  339
+  A  8  8  0  0  0  164  344.291502622129
+  A  8  8  0  0  1  166  349.583005244258
+  L  166  355
+"/>
+<path  id="suburbanline-S12s"  class="suburbanline"  stroke="#AA33AA"  d="
+  M  -20  285
+  L  9.65685424949238  314.656854249492
+  A  8  8  0  0  0  15.3137084989848  317
+  L  25  317
+  L  90  317
+  L  158  317
+  A  8  8  0  0  1  166  325
+  L  166  337
+  L  166  339
+  A  4  4  0  0  0  170  343
+  L  265  343
+"/>
+<use  href="#StationShape-0-0"  x="127.026548245744"  y="317"  stroke="#AA33AA"  transform="rotate(  90  127.026548245744  317  )"  />
+<use  href="#StationShape-0-0"  x="209.227079934123"  y="343"  stroke="#AA33AA"  transform="rotate(  90  209.227079934123  343  )"  />
+<use  href="#StationShape-0-0"  x="227.818053289415"  y="343"  stroke="#AA33AA"  transform="rotate(  90  227.818053289415  343  )"  />
+<use  href="#StationShape-0-0"  x="246.409026644708"  y="343"  stroke="#AA33AA"  transform="rotate(  90  246.409026644708  343  )"  />
+<use  href="#TerminusShape-0-0"  x="265"  y="343"  stroke="#000000"  transform="rotate(  90  265  343  )"  />
+<path  id="suburbanline-S13s"  class="suburbanline"  stroke="#AEC200"  d="
+  M  -22.8284271247462  287.828427124746
+  L  6.82842712474617  317.485281374239
+  A  12  12  0  0  0  15.3137084989847  321
+  L  25  321
+  L  90  321
+  L  158  321
+  A  4  4  0  0  1  162  325
+  L  162  337
+  L  162  339
+  A  8  8  0  0  0  164  344.291502622129
+  A  8  8  0  0  1  166  349.583005244258
+  L  166  355
+"/>
+<path  id="suburbanlineInner-S13s"  class="suburbanlineInner"  stroke="#DFF700"  d="
+  M  -22.8284271247462  287.828427124746
+  L  6.82842712474617  317.485281374239
+  A  12  12  0  0  0  15.3137084989847  321
+  L  25  321
+  L  90  321
+  L  158  321
+  A  4  4  0  0  1  162  325
+  L  162  337
+  L  162  339
+  A  8  8  0  0  0  164  344.291502622129
+  A  8  8  0  0  1  166  349.583005244258
+  L  166  355
+"/>
+<path  id="suburbanlineBackground-S2w"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  232
+  L  161.911688245431  232
+  A  16  16  0  0  0  150.597979746447  236.686291501015
+  L  130.142135623731  257.142135623731
+  L  110.798989873223  276.485281374239
+  A  12  12  0  0  1  102.313708498985  280
+  L  40  280
+  L  -11.6862915010152  280
+  A  8  8  0  0  0  -17.3431457505076  282.343145750508
+  L  -20  285
+  L  -41.1715728752538  306.171572875254
+  A  4  4  0  0  1  -46.8284271247462  306.171572875254
+  L  -137  216
+"/>
+<path  id="suburbanlineBackground-S7w"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  138.62741699797  265.62741699797
+  L  122.343145750508  281.911688245431
+  A  8  8  0  0  0  120  287.568542494924
+  L  120  310.37258300203
+  A  16  16  0  0  1  115.313708498985  321.686291501015
+  L  108.686291501015  328.313708498985
+  A  16  16  0  0  1  97.3725830020305  333
+  L  90  333
+  L  87.3137084989848  333
+  A  8  8  0  0  0  81.6568542494924  335.343145750508
+  L  12  405
+"/>
+<path  id="suburbanlineBackground-S8w"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  240
+  L  161.911688245431  240
+  A  8  8  0  0  0  156.254833995939  242.343145750508
+  L  135.798989873223  262.798989873223
+  L  119.514718625761  279.083261120685
+  A  12  12  0  0  0  116  287.568542494924
+  L  116  310.37258300203
+  A  12  12  0  0  1  112.485281374239  318.857864376269
+  L  105.857864376269  325.485281374239
+  A  12  12  0  0  1  97.3725830020304  329
+  L  90  329
+  L  25  329
+  L  15.3137084989848  329
+  A  8  8  0  0  0  9.65685424949237  331.343145750508
+  L  -25.4852813742386  366.485281374239
+  A  12  12  0  0  1  -33.9705627484771  370
+  L  -75  370
+  L  -114.686291501015  370
+  A  8  8  0  0  1  -120.343145750508  367.656854249492
+  L  -141.343145750508  346.656854249492
+  A  8  8  0  0  1  -141.343145750508  335.343145750508
+  L  -130.343145750508  324.343145750508
+  A  8  8  0  0  0  -128  318.686291501015
+  L  -128  300
+"/>
+<path  id="suburbanlineBackground-S9w"  class="suburbanlineBackground"  stroke="#FFFFFF"  d="
+  M  185  236
+  L  161.911688245431  236
+  A  12  12  0  0  0  153.426406871193  239.514718625761
+  L  132.970562748477  259.970562748477
+  L  116.686291501015  276.254833995939
+  A  16  16  0  0  0  112  287.568542494924
+  L  112  310.372583002031
+  A  8  8  0  0  1  109.656854249492  316.029437251523
+  L  103.029437251523  322.656854249492
+  A  8  8  0  0  1  97.3725830020305  325
+  L  90  325
+  L  25  325
+  L  15.3137084989847  325
+  A  12  12  0  0  0  6.82842712474616  328.514718625761
+  L  -28.3137084989848  363.656854249492
+  A  8  8  0  0  1  -33.9705627484772  366
+  L  -75  366
+  L  -79.3431457505076  366
+  A  8  8  0  0  1  -85  363.656854249492
+  L  -115.828427124746  332.828427124746
+  L  -120.485281374239  328.171572875254
+  A  12  12  0  0  1  -124  319.686291501015
+  L  -124  300
+"/>
+<path  id="suburbanline-S2w"  class="suburbanline"  stroke="#EE4444"  d="
+  M  185  232
+  L  161.911688245431  232
+  A  16  16  0  0  0  150.597979746447  236.686291501015
+  L  130.142135623731  257.142135623731
+  L  110.798989873223  276.485281374239
+  A  12  12  0  0  1  102.313708498985  280
+  L  40  280
+  L  -11.6862915010152  280
+  A  8  8  0  0  0  -17.3431457505076  282.343145750508
+  L  -20  285
+  L  -41.1715728752538  306.171572875254
+  A  4  4  0  0  1  -46.8284271247462  306.171572875254
+  L  -137  216
+"/>
+<use  href="#StationShape-0-0"  x="-60.0022909220371"  y="292.997709077963"  stroke="#EE4444"  transform="rotate(  -45  -60.0022909220371  292.997709077963  )"  />
+<use  href="#StationShape-0-0"  x="-71.0019636474604"  y="281.99803635254"  stroke="#EE4444"  transform="rotate(  -45  -71.0019636474604  281.99803635254  )"  />
+<use  href="#TerminusShape-0-0"  x="-82.0016363728837"  y="270.998363627116"  stroke="#000000"  transform="rotate(  -45  -82.0016363728837  270.998363627116  )"  />
+<use  href="#StationShape-0-0"  x="-93.0013090983069"  y="259.998690901693"  stroke="#EE4444"  transform="rotate(  -45  -93.0013090983069  259.998690901693  )"  />
+<use  href="#StationShape-0-0"  x="-104.00098182373"  y="248.99901817627"  stroke="#EE4444"  transform="rotate(  -45  -104.00098182373  248.99901817627  )"  />
+<use  href="#StationShape-0-0"  x="-115.000654549153"  y="237.999345450847"  stroke="#EE4444"  transform="rotate(  -45  -115.000654549153  237.999345450847  )"  />
+<use  href="#StationShape-0-0"  x="-126.000327274577"  y="226.999672725423"  stroke="#EE4444"  transform="rotate(  -45  -126.000327274577  226.999672725423  )"  />
+<use  href="#TerminusShape-0-0"  x="-137"  y="216"  stroke="#000000"  transform="rotate(  -45  -137  216  )"  />
+<path  id="suburbanline-S7w"  class="suburbanline"  stroke="#3344AA"  d="
+  M  138.62741699797  265.62741699797
+  L  122.343145750508  281.911688245431
+  A  8  8  0  0  0  120  287.568542494924
+  L  120  310.37258300203
+  A  16  16  0  0  1  115.313708498985  321.686291501015
+  L  108.686291501015  328.313708498985
+  A  16  16  0  0  1  97.3725830020305  333
+  L  90  333
+  L  87.3137084989848  333
+  A  8  8  0  0  0  81.6568542494924  335.343145750508
+  L  12  405
+"/>
+<use  href="#StationShape-0-0"  x="73.1793818600312"  y="343.820618139969"  stroke="#3344AA"  transform="rotate(  225  73.1793818600312  343.820618139969  )"  />
+<use  href="#StationShape-0-0"  x="55.6995584714509"  y="361.300441528549"  stroke="#3344AA"  transform="rotate(  225  55.6995584714509  361.300441528549  )"  />
+<use  href="#StationShape-0-0"  x="46.9596467771607"  y="370.040353222839"  stroke="#3344AA"  transform="rotate(  225  46.9596467771607  370.040353222839  )"  />
+<use  href="#StationShape-0-0"  x="38.2197350828705"  y="378.780264917129"  stroke="#3344AA"  transform="rotate(  225  38.2197350828705  378.780264917129  )"  />
+<use  href="#StationShape-0-0"  x="29.4798233885803"  y="387.52017661142"  stroke="#3344AA"  transform="rotate(  225  29.4798233885803  387.52017661142  )"  />
+<use  href="#StationShape-0-0"  x="20.7399116942902"  y="396.26008830571"  stroke="#3344AA"  transform="rotate(  225  20.7399116942902  396.26008830571  )"  />
+<use  href="#TerminusShape-0-0"  x="12"  y="405"  stroke="#000000"  transform="rotate(  225  12  405  )"  />
+<path  id="suburbanline-S8w"  class="suburbanline"  stroke="#FF52DC"  d="
+  M  185  240
+  L  161.911688245431  240
+  A  8  8  0  0  0  156.254833995939  242.343145750508
+  L  135.798989873223  262.798989873223
+  L  119.514718625761  279.083261120685
+  A  12  12  0  0  0  116  287.568542494924
+  L  116  310.37258300203
+  A  12  12  0  0  1  112.485281374239  318.857864376269
+  L  105.857864376269  325.485281374239
+  A  12  12  0  0  1  97.3725830020304  329
+  L  90  329
+  L  25  329
+  L  15.3137084989848  329
+  A  8  8  0  0  0  9.65685424949237  331.343145750508
+  L  -25.4852813742386  366.485281374239
+  A  12  12  0  0  1  -33.9705627484771  370
+  L  -75  370
+  L  -114.686291501015  370
+  A  8  8  0  0  1  -120.343145750508  367.656854249492
+  L  -141.343145750508  346.656854249492
+  A  8  8  0  0  1  -141.343145750508  335.343145750508
+  L  -130.343145750508  324.343145750508
+  A  8  8  0  0  0  -128  318.686291501015
+  L  -128  300
+"/>
+<use  href="#StationShape-0-0OuterBorder"  x="-91.3902293850419"  y="370"  stroke="#FF52DC"  fill="#FFAAEE"  transform="rotate(  -90  -91.3902293850419  370  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="-122.027261884765"  y="365.972738115235"  stroke="#FF52DC"  fill="#FFAAEE"  transform="rotate(  -45  -122.027261884765  365.972738115235  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="-130.140011525122"  y="357.859988474878"  stroke="#FF52DC"  fill="#FFAAEE"  transform="rotate(  -45  -130.140011525122  357.859988474878  )"  />
+<use  href="#StationShape-0-0OuterBorder"  x="-138.252761165478"  y="349.747238834522"  stroke="#FF52DC"  fill="#FFAAEE"  transform="rotate(  -45  -138.252761165478  349.747238834522  )"  />
+<path  id="suburbanline-S9w"  class="suburbanline"  stroke="#226644"  d="
+  M  185  236
+  L  161.911688245431  236
+  A  12  12  0  0  0  153.426406871193  239.514718625761
+  L  132.970562748477  259.970562748477
+  L  116.686291501015  276.254833995939
+  A  16  16  0  0  0  112  287.568542494924
+  L  112  310.372583002031
+  A  8  8  0  0  1  109.656854249492  316.029437251523
+  L  103.029437251523  322.656854249492
+  A  8  8  0  0  1  97.3725830020305  325
+  L  90  325
+  L  25  325
+  L  15.3137084989847  325
+  A  12  12  0  0  0  6.82842712474616  328.514718625761
+  L  -28.3137084989848  363.656854249492
+  A  8  8  0  0  1  -33.9705627484772  366
+  L  -75  366
+  L  -79.3431457505076  366
+  A  8  8  0  0  1  -85  363.656854249492
+  L  -115.828427124746  332.828427124746
+  L  -120.485281374239  328.171572875254
+  A  12  12  0  0  1  -124  319.686291501015
+  L  -124  300
+"/>
+<path  id="suburbanlineInner-S8w"  class="suburbanlineInner"  stroke="#FFAAEE"  d="
+  M  185  240
+  L  161.911688245431  240
+  A  8  8  0  0  0  156.254833995939  242.343145750508
+  L  135.798989873223  262.798989873223
+  L  119.514718625761  279.083261120685
+  A  12  12  0  0  0  116  287.568542494924
+  L  116  310.37258300203
+  A  12  12  0  0  1  112.485281374239  318.857864376269
+  L  105.857864376269  325.485281374239
+  A  12  12  0  0  1  97.3725830020304  329
+  L  90  329
+  L  25  329
+  L  15.3137084989848  329
+  A  8  8  0  0  0  9.65685424949237  331.343145750508
+  L  -25.4852813742386  366.485281374239
+  A  12  12  0  0  1  -33.9705627484771  370
+  L  -75  370
+  L  -114.686291501015  370
+  A  8  8  0  0  1  -120.343145750508  367.656854249492
+  L  -141.343145750508  346.656854249492
+  A  8  8  0  0  1  -141.343145750508  335.343145750508
+  L  -130.343145750508  324.343145750508
+  A  8  8  0  0  0  -128  318.686291501015
+  L  -128  300
+"/>
+<use  href="#StationShape-0-0InnerBorder"  x="-91.3902293850419"  y="370"  stroke="#FF52DC"  fill="#FFAAEE"  transform="rotate(  -90  -91.3902293850419  370  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="-122.027261884765"  y="365.972738115235"  stroke="#FF52DC"  fill="#FFAAEE"  transform="rotate(  -45  -122.027261884765  365.972738115235  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="-130.140011525122"  y="357.859988474878"  stroke="#FF52DC"  fill="#FFAAEE"  transform="rotate(  -45  -130.140011525122  357.859988474878  )"  />
+<use  href="#StationShape-0-0InnerBorder"  x="-138.252761165478"  y="349.747238834522"  stroke="#FF52DC"  fill="#FFAAEE"  transform="rotate(  -45  -138.252761165478  349.747238834522  )"  />
+<path  id="otherslineBackground-X1"  class="otherslineBackground"  stroke="#FFFFFF"  stroke-width="1.75"  d="
+  M  126.75485198739  128.097997737897
+  L  130.841573902961  124.011275822326
+  L  134.415149040317  127.584850959683
+"/>
+<path  id="otherslineBackground-X2"  class="otherslineBackground"  stroke="#FFFFFF"  stroke-width="1.75"  d="
+  M  180.86323900663  91.8926762581532
+  L  184.127957632392  88.6279576323917
+  L  178.75  83.25
+"/>
+<path  id="otherslineBackground-X3"  class="otherslineBackground"  stroke="#FFFFFF"  stroke-width="1.75"  d="
+  M  36.7  317
+  L  36.7  333
+  L  56.7  333
+  L  60.5697350828705  336.869735082871
+  L  60.5697350828705  348.690794751388
+  L  64.4394701657411  352.560529834259
+"/>
+<path  id="othersline-X1"  class="othersline"  stroke="#000000"  stroke-width="0.75"  d="
+  M  126.75485198739  128.097997737897
+  L  130.841573902961  124.011275822326
+  L  134.415149040317  127.584850959683
+"/>
+<path  id="othersline-X2"  class="othersline"  stroke="#000000"  stroke-width="0.75"  d="
+  M  180.86323900663  91.8926762581532
+  L  184.127957632392  88.6279576323917
+  L  178.75  83.25
+"/>
+<path  id="othersline-X3"  class="othersline"  stroke="#000000"  stroke-width="0.75"  d="
+  M  36.7  317
+  L  36.7  333
+  L  56.7  333
+  L  60.5697350828705  336.869735082871
+  L  60.5697350828705  348.690794751388
+  L  64.4394701657411  352.560529834259
+"/>
+<use  href="#StationShape-2-0"  x="160"  y="36.1516940099469"  stroke="#000000"  transform="rotate(  -180  160  36.1516940099469  )"  />
+<use  href="#StationShape-2-0"  x="160"  y="29.6867258771282"  stroke="#000000"  transform="rotate(  -180  160  29.6867258771282  )"  />
+<use  href="#TerminusShape-2-0"  x="145"  y="20"  stroke="#000000"  transform="rotate(  -270  145  20  )"  />
+<use  href="#TerminusShape-1-2"  x="65"  y="15"  stroke="#000000"  transform="rotate(  -225  65  15  )"  />
+<use  href="#StationShape-3-0"  x="106.06"  y="62"  stroke="#000000"  transform="rotate(  -270  106.06  62  )"  />
+<use  href="#StationShape-3-0"  x="92.2"  y="62"  stroke="#000000"  transform="rotate(  -270  92.2  62  )"  />
+<use  href="#StationShape-1-2"  x="40"  y="40"  stroke="#000000"  transform="rotate(  -225  40  40  )"  />
+<use  href="#StationShape-3-0"  x="237.779207899159"  y="259.877646350334"  stroke="#000000"  transform="rotate(  -135  237.779207899159  259.877646350334  )"  />
+<use  href="#StationShape-3-10"  x="249"  y="240"  stroke="#000000"  transform="rotate(  -180  249  240  )"  />
+<use  href="#StationShape-2-0"  x="260.739824838497"  y="182.260175161503"  stroke="#000000"  transform="rotate(  -135  260.739824838497  182.260175161503  )"  />
+<use  href="#StationShape-2-0"  x="268.159883225665"  y="174.840116774335"  stroke="#000000"  transform="rotate(  -135  268.159883225665  174.840116774335  )"  />
+<use  href="#StationShape-2-0"  x="275.579941612832"  y="167.420058387168"  stroke="#000000"  transform="rotate(  -135  275.579941612832  167.420058387168  )"  />
+<use  href="#TerminusShape-2-0"  x="283"  y="160"  stroke="#000000"  transform="rotate(  -135  283  160  )"  />
+<use  href="#TerminusShape-1-1"  x="214"  y="48"  stroke="#000000"  transform="rotate(  -225  214  48  )"  />
+<use  href="#StationShape-2-0"  x="114"  y="219.394780504126"  stroke="#000000"  transform="rotate(  -180  114  219.394780504126  )"  />
+<use  href="#StationShape-2-0"  x="144"  y="170.991005933501"  stroke="#000000"  transform="rotate(  -180  144  170.991005933501  )"  />
+<use  href="#StationShape-2-0"  x="144"  y="162.244473675418"  stroke="#000000"  transform="rotate(  -180  144  162.244473675418  )"  />
+<use  href="#StationShape-2-0"  x="144"  y="153.426789436755"  stroke="#000000"  transform="rotate(  -180  144  153.426789436755  )"  />
+<use  href="#StationShape-2-0"  x="140.115020094416"  y="141.458165844924"  stroke="#000000"  transform="rotate(  -225  140.115020094416  141.458165844924  )"  />
+<use  href="#StationShape-2-0"  x="126.75485198739"  y="128.097997737897"  stroke="#000000"  transform="rotate(  -225  126.75485198739  128.097997737897  )"  />
+<use  href="#StationShape-2-0"  x="118"  y="115.683522578119"  stroke="#000000"  transform="rotate(  -180  118  115.683522578119  )"  />
+<use  href="#StationShape-2-0"  x="281.471942407286"  y="208"  stroke="#000000"  transform="rotate(  -90  281.471942407286  208  )"  />
+<use  href="#TerminusShape-1-1"  x="310"  y="212"  stroke="#000000"  transform="rotate(  -45  310  212  )"  />
+<use  href="#StationShape-2-0"  x="334.713224594212"  y="155.94362965528"  stroke="#000000"  transform="rotate(  -135  334.713224594212  155.94362965528  )"  />
+<use  href="#StationShape-2-0"  x="342.992025226846"  y="147.664829022647"  stroke="#000000"  transform="rotate(  -135  342.992025226846  147.664829022647  )"  />
+<use  href="#StationShape-2-0"  x="351.270825859479"  y="139.386028390013"  stroke="#000000"  transform="rotate(  -135  351.270825859479  139.386028390013  )"  />
+<use  href="#StationShape-2-0"  x="359.549626492113"  y="131.10722775738"  stroke="#000000"  transform="rotate(  -135  359.549626492113  131.10722775738  )"  />
+<use  href="#TerminusShape-2-0"  x="367.828427124746"  y="122.828427124746"  stroke="#000000"  transform="rotate(  -135  367.828427124746  122.828427124746  )"  />
+<use  href="#StationShape-2-0"  x="160.256100435206"  y="204"  stroke="#000000"  transform="rotate(  -270  160.256100435206  204  )"  />
+<use  href="#StationShape-2-0"  x="135.512200870412"  y="204"  stroke="#000000"  transform="rotate(  -270  135.512200870412  204  )"  />
+<use  href="#StationShape-2-2"  x="122.828427124746"  y="199.828427124746"  stroke="#000000"  transform="rotate(  -225  122.828427124746  199.828427124746  )"  />
+<use  href="#StationShape-2-0"  x="111.25"  y="188.25"  stroke="#000000"  transform="rotate(  -225  111.25  188.25  )"  />
+<use  href="#StationShape-2-0"  x="97.95"  y="174.95"  stroke="#000000"  transform="rotate(  -225  97.95  174.95  )"  />
+<use  href="#StationShape-2-0"  x="86.75"  y="163.75"  stroke="#000000"  transform="rotate(  -225  86.75  163.75  )"  />
+<use  href="#TerminusShape-1-1"  x="57"  y="100"  stroke="#000000"  transform="rotate(  -180  57  100  )"  />
+<use  href="#StationShape-4-0"  x="197"  y="192.845400146103"  stroke="#000000"  transform="rotate(  -180  197  192.845400146103  )"  />
+<use  href="#StationShape-4-0"  x="197"  y="180.676471151549"  stroke="#000000"  transform="rotate(  -180  197  180.676471151549  )"  />
+<use  href="#StationShape-4-0"  x="197"  y="168.507542156995"  stroke="#000000"  transform="rotate(  -180  197  168.507542156995  )"  />
+<use  href="#StationShape-4-0"  x="197"  y="156.338613162441"  stroke="#000000"  transform="rotate(  -180  197  156.338613162441  )"  />
+<use  href="#StationShape-4-0"  x="197"  y="144.169684167887"  stroke="#000000"  transform="rotate(  -180  197  144.169684167887  )"  />
+<use  href="#StationShape-4-0"  x="197"  y="132.000755173333"  stroke="#000000"  transform="rotate(  -180  197  132.000755173333  )"  />
+<use  href="#StationShape-4-0"  x="197"  y="119.831826178779"  stroke="#000000"  transform="rotate(  -180  197  119.831826178779  )"  />
+<use  href="#StationShape-4-0"  x="190.543562744935"  y="101.572999996458"  stroke="#000000"  transform="rotate(  -225  190.543562744935  101.572999996458  )"  />
+<use  href="#StationShape-4-0"  x="180.86323900663"  y="91.8926762581532"  stroke="#000000"  transform="rotate(  -225  180.86323900663  91.8926762581532  )"  />
+<use  href="#TerminusShape-4-0"  x="163.850625890255"  y="74.8800631417778"  stroke="#000000"  transform="rotate(  -225  163.850625890255  74.8800631417778  )"  />
+<use  href="#StationShape-3-0"  x="134.701110736854"  y="62"  stroke="#000000"  transform="rotate(  -270  134.701110736854  62  )"  />
+<use  href="#StationShape-2-0"  x="114"  y="88.7207081139897"  stroke="#000000"  />
+<use  href="#TerminusShape-2-0"  x="114"  y="100"  stroke="#000000"  />
+<use  href="#StationShape-2-0"  x="93.7451332235384"  y="45"  stroke="#000000"  transform="rotate(  -90  93.7451332235384  45  )"  />
+<use  href="#TerminusShape-2-0"  x="130"  y="45"  stroke="#000000"  transform="rotate(  -90  130  45  )"  />
+<use  href="#StationShape-4-10"  x="185"  y="204"  stroke="#000000"  />
+<use  href="#StationShape-4-3"  x="210.171572875254"  y="276.171572875254"  stroke="#000000"  transform="rotate(  -45  210.171572875254  276.171572875254  )"  />
+<use  href="#StationShape-4-0"  x="233.25"  y="299.25"  stroke="#000000"  transform="rotate(  -45  233.25  299.25  )"  />
+<use  href="#TerminusShape-4-3"  x="240"  y="306"  stroke="#000000"  transform="rotate(  -45  240  306  )"  />
+<use  href="#StationShape-4-0"  x="300.955211602187"  y="270"  stroke="#000000"  transform="rotate(  -90  300.955211602187  270  )"  />
+<use  href="#StationShape-4-0"  x="317.967108520356"  y="270"  stroke="#000000"  transform="rotate(  -90  317.967108520356  270  )"  />
+<use  href="#StationShape-4-0"  x="334.979005438525"  y="270"  stroke="#000000"  transform="rotate(  -90  334.979005438525  270  )"  />
+<use  href="#StationShape-4-0"  x="351.990902356694"  y="270"  stroke="#000000"  transform="rotate(  -90  351.990902356694  270  )"  />
+<use  href="#StationShape-4-0"  x="368.104528384912"  y="270"  stroke="#000000"  transform="rotate(  -90  368.104528384912  270  )"  />
+<use  href="#StationShape-2-0"  x="385.359248812233"  y="274.359248812233"  stroke="#000000"  transform="rotate(  -45  385.359248812233  274.359248812233  )"  />
+<use  href="#TerminusShape-1-1"  x="-90"  y="150"  stroke="#000000"  transform="rotate(  45  -90  150  )"  />
+<use  href="#StationShape-2-2"  x="-7.17157287525381"  y="146.171572875254"  stroke="#000000"  transform="rotate(  -225  -7.17157287525381  146.171572875254  )"  />
+<use  href="#StationShape-2-0"  x="-23.9215728752538"  y="129.421572875254"  stroke="#000000"  transform="rotate(  -225  -23.9215728752538  129.421572875254  )"  />
+<use  href="#StationShape-2-0"  x="-40.6715728752538"  y="112.671572875254"  stroke="#000000"  transform="rotate(  -225  -40.6715728752538  112.671572875254  )"  />
+<use  href="#StationShape-3-0"  x="19.1222593282686"  y="166.808550829284"  stroke="#000000"  transform="rotate(  -225  19.1222593282686  166.808550829284  )"  />
+<use  href="#StationShape-2-0"  x="15"  y="79.4988892631463"  stroke="#000000"  transform="rotate(  -180  15  79.4988892631463  )"  />
+<use  href="#StationShape-2-0"  x="20.550636469563"  y="59.449363530437"  stroke="#000000"  transform="rotate(  -135  20.550636469563  59.449363530437  )"  />
+<use  href="#StationShape-4-0"  x="79.6399912420826"  y="252.669400605079"  stroke="#000000"  transform="rotate(  -225.127217837053  79.6399912420826  252.669400605079  )"  />
+<use  href="#StationShape-4-0"  x="72"  y="217.942928562451"  stroke="#000000"  transform="rotate(  -180  72  217.942928562451  )"  />
+<use  href="#StationShape-4-0"  x="72"  y="204.485732140613"  stroke="#000000"  transform="rotate(  -180  72  204.485732140613  )"  />
+<use  href="#StationShape-1-0"  x="134.415149040317"  y="127.584850959683"  stroke="#000000"  transform="rotate(  -135  134.415149040317  127.584850959683  )"  />
+<use  href="#StationShape-1-0"  x="178.75"  y="83.25"  stroke="#000000"  transform="rotate(  -135  178.75  83.25  )"  />
+<use  href="#StationShape-7-0"  x="264.358776556856"  y="244.358776556856"  stroke="#000000"  transform="rotate(  -45  264.358776556856  244.358776556856  )"  />
+<use  href="#StationShape-3-0"  x="259.838291606309"  y="286.161708393691"  stroke="#000000"  transform="rotate(  45  259.838291606309  286.161708393691  )"  />
+<use  href="#StationShape-3-0"  x="162"  y="334.537421191245"  stroke="#000000"  />
+<use  href="#StationShape-2-0"  x="166"  y="355"  stroke="#000000"  />
+<use  href="#StationShape-3-0"  x="112"  y="306.143795602072"  stroke="#000000"  />
+<use  href="#StationShape-4-0"  x="90.711894438512"  y="321"  stroke="#000000"  transform="rotate(  -270  90.711894438512  321  )"  />
+<use  href="#StationShape-1-0"  x="64.4394701657411"  y="352.560529834259"  stroke="#000000"  transform="rotate(  45  64.4394701657411  352.560529834259  )"  />
+<use  href="#StationShape-4-0"  x="65.3"  y="317"  stroke="#000000"  transform="rotate(  -270  65.3  317  )"  />
+<use  href="#StationShape-4-0"  x="36.7"  y="317"  stroke="#000000"  transform="rotate(  -270  36.7  317  )"  />
+<use  href="#TerminusShape-2-0"  x="-7.26032334909499"  y="342.603469099603"  stroke="#000000"  transform="rotate(  45  -7.26032334909499  342.603469099603  )"  />
+<use  href="#StationShape-2-0"  x="-16.7159437514758"  y="352.059089501983"  stroke="#000000"  transform="rotate(  45  -16.7159437514758  352.059089501983  )"  />
+<use  href="#StationShape-2-0"  x="-26.1715641538567"  y="361.514709904364"  stroke="#000000"  transform="rotate(  45  -26.1715641538567  361.514709904364  )"  />
+<use  href="#TerminusShape-2-0"  x="-38.4065390144739"  y="366"  stroke="#000000"  transform="rotate(  90  -38.4065390144739  366  )"  />
+<use  href="#StationShape-2-0"  x="-63.5645434420231"  y="366"  stroke="#000000"  transform="rotate(  90  -63.5645434420231  366  )"  />
+<use  href="#StationShape-2-0"  x="391.879239189103"  y="252.777615060389"  stroke="#000000"  transform="rotate(  -135  391.879239189103  252.777615060389  )"  />
+<use  href="#StationShape-2-0"  x="399.248123390903"  y="245.408730858589"  stroke="#000000"  transform="rotate(  -135  399.248123390903  245.408730858589  )"  />
+<use  href="#StationShape-2-0"  x="406.617007592703"  y="238.039846656789"  stroke="#000000"  transform="rotate(  -135  406.617007592703  238.039846656789  )"  />
+<use  href="#TerminusShape-2-1"  x="420.828427124746"  y="223.828427124746"  stroke="#000000"  transform="rotate(  -135  420.828427124746  223.828427124746  )"  />
+<use  href="#StationShape-8-0"  x="131.324465048293"  y="227.675534951707"  stroke="#000000"  transform="rotate(  45  131.324465048293  227.675534951707  )"  />
+<use  href="#StationShape-9-4"  x="120.242640687119"  y="238.757359312881"  stroke="#000000"  transform="rotate(  45  120.242640687119  238.757359312881  )"  />
+<use  href="#StationShape-2-0"  x="49.5952232865492"  y="276"  stroke="#000000"  transform="rotate(  -270  49.5952232865492  276  )"  />
+<use  href="#StationShape-2-0"  x="4.32236417393406"  y="276"  stroke="#000000"  transform="rotate(  -270  4.32236417393406  276  )"  />
+<use  href="#StationShape-2-2"  x="-22.8284271247462"  y="282.171572875254"  stroke="#000000"  transform="rotate(  45  -22.8284271247462  282.171572875254  )"  />
+<use  href="#StationShape-2-0"  x="-39.906662280558"  y="299.249808031066"  stroke="#000000"  transform="rotate(  45  -39.906662280558  299.249808031066  )"  />
+<use  href="#StationShape-2-0"  x="-114.151002370222"  y="328.848997629778"  stroke="#000000"  transform="rotate(  -225  -114.151002370222  328.848997629778  )"  />
+<use  href="#StationShape-3-0"  x="-120"  y="311.394342136038"  stroke="#000000"  transform="rotate(  -180  -120  311.394342136038  )"  />
+<use  href="#TerminusShape-3-0"  x="-120"  y="300"  stroke="#000000"  transform="rotate(  -180  -120  300  )"  />
+<use  href="#StationShape-2-0"  x="-10.5437332469757"  y="300.113121002517"  stroke="#000000"  transform="rotate(  -45  -10.5437332469757  300.113121002517  )"  />
+<use  href="#StationShape-2-0"  x="5.01687899820022"  y="315.673733247693"  stroke="#000000"  transform="rotate(  -45  5.01687899820022  315.673733247693  )"  />
+<use  href="#StationShape-2-0"  x="-35"  y="254.641037285163"  stroke="#000000"  transform="rotate(  -180  -35  254.641037285163  )"  />
+<use  href="#TerminusShape-2-0"  x="-35"  y="231.586897174481"  stroke="#000000"  transform="rotate(  -180  -35  231.586897174481  )"  />
+<use  href="#StationShape-2-0"  x="-35"  y="209.219766908755"  stroke="#000000"  transform="rotate(  -180  -35  209.219766908755  )"  />
+<use  href="#StationShape-2-0"  x="-35"  y="185.549417271887"  stroke="#000000"  transform="rotate(  -180  -35  185.549417271887  )"  />
+<use  href="#StationShape-2-0"  x="4.57772458925826"  y="134.422275410742"  stroke="#000000"  transform="rotate(  -135  4.57772458925826  134.422275410742  )"  />
+<text  class="stationTextMiddleLeft"  x="164"  y="36.1516940099469"  >
+  Kalbach
+</text>
+<text  class="stationTextMiddleLeft"  x="164"  y="29.6867258771282"  >
+  Bonames
+</text>
+<text  class="terminusTextBottomLeft"  x="143.75"  y="16"  >
+  Nieder-Eschbach
+</text>
+<text  class="terminusTextBottomRight"  x="56.8284271247462"  y="12.1715728752538"  >
+  Bad Homburg
+</text>
+<text  class="stationTextBottomCenter"  x="106.06"  y="58"  >
+  Wiesenau
+</text>
+<text  class="stationTextTopCenter"  x="92.2"  y="74"  >
+  Niederursel
+</text>
+<text  class="stationTextMiddleLeft"  x="46"  y="40"  >
+  Oberursel
+</text>
+<text  class="stationTextTopLeft"  x="240.607635023905"  y="262.70607347508"  >
+  Dom/Römer
+</text>
+<text  class="stationTextMiddleCenter"  x="245"  y="222"
+  transform="rotate(  90  245  222  )">
+  Konstablerwache
+</text>
+<text  class="stationTextTopLeft"  x="263.568251963243"  y="185.088602286249"  >
+  Merianplatz
+</text>
+<text  class="stationTextTopLeft"  x="270.988310350411"  y="177.668543899081"  >
+  Höhenstraße
+</text>
+<text  class="stationTextTopLeft"  x="278.408368737579"  y="170.248485511914"  >
+  Bornheim Mitte
+</text>
+<text  class="terminusTextBottomLeft"  x="283"  y="154.343145750508"  >
+  <tspan  x="283"  dy="-5.9"  >Seckbacher</tspan>
+  <tspan  x="283"  dy="5.9"  >Landstraße</tspan>
+</text>
+<text  class="terminusTextBottomRight"  x="211"  y="45"  >
+  <tspan  x="211"  dy="-5.9"  >Frankfurter</tspan>
+</text>
+<text  class="terminusTextBottomRight"  x="211"  y="45"  >
+  <tspan  x="211"  dy="0"  >Berg</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="106"  y="219.394780504126"  >
+  <tspan  x="106"  dy="-2.95"  >Festhalle/</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="106"  y="219.394780504126"  >
+  <tspan  x="106"  dy="2.95"  >Messe</tspan>
+</text>
+<text  class="stationTextTopLeft"  x="148"  y="168.658005933501"  >
+  <tspan  x="148"  dy="0"  >UNI Campus </tspan>
+  <tspan  x="148"  dy="5.9"  >Westend</tspan>
+</text>
+<text  class="stationTextMiddleLeft"  x="148"  y="162.244473675418"  >
+  Europaturm
+</text>
+<text  class="stationTextMiddleLeft"  x="148"  y="153.426789436755"  >
+  Platensiedlung
+</text>
+<text  class="stationTextBottomLeft"  x="142.943447219163"  y="138.629738720178"  >
+  Ginnheim Mitte
+</text>
+<text  class="stationTextTopRight"  x="121.097997737897"  y="133.75485198739"  >
+  Niddapark
+</text>
+<text  class="stationTextMiddleRight"  x="110"  y="115.683522578119"  >
+  Römerstadt
+</text>
+<text  class="stationTextBottomRight"  x="282.721942407286"  y="200"  >
+  Zoo
+</text>
+<text  class="terminusTextTopLeft"  x="312.671572875254"  y="214.828427124746"  >
+  Frankfurt Ost
+</text>
+<text  class="stationTextTopLeft"  x="337.541651718959"  y="158.772056780026"  >
+  Schäfflestraße
+</text>
+<text  class="stationTextTopLeft"  x="345.820452351592"  y="150.493256147393"  >
+  Gwinnerstraße
+</text>
+<text  class="stationTextTopLeft"  x="354.099252984226"  y="142.214455514759"  >
+  Kruppstraße
+</text>
+<text  class="stationTextTopLeft"  x="362.378053616859"  y="133.935654882126"  >
+  Hessen-Center
+</text>
+<text  class="terminusTextBottomLeft"  x="368.414213562373"  y="119.414213562373"  >
+  Enkheim
+</text>
+<text  class="stationTextBottomLeft"  x="159.006100435206"  y="200"  >
+  Alte Oper
+</text>
+<text  class="stationTextBottomLeft"  x="134.262200870412"  y="200"  >
+  Westend
+</text>
+<text  class="stationTextMiddleRight"  x="109.171572875254"  y="199.485281374239"  >
+  <tspan  x="109.171572875254"  dy="-2.95"  >Bockenheimer</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="109.171572875254"  y="199.485281374239"  >
+  <tspan  x="109.171572875254"  dy="2.95"  >Warte</tspan>
+</text>
+<text  class="stationTextBottomLeft"  x="114.078427124746"  y="185.421572875254"  >
+  <tspan  x="114.078427124746"  dy="-5.9"  >Leipziger</tspan>
+  <tspan  x="114.078427124746"  dy="5.9"  >Straße</tspan>
+</text>
+<text  class="stationTextBottomLeft"  x="100.778427124746"  y="172.121572875254"  >
+  Kirchplatz
+</text>
+<text  class="stationTextTopRight"  x="81.0931457505076"  y="169.406854249492"  >
+  Industriehof
+</text>
+<text  class="terminusTextBottomCenter"  x="57"  y="95"  >
+  Praunheim
+</text>
+<text  class="stationTextMiddleLeft"  x="201"  y="192.845400146103"  >
+  <tspan  x="201"  dy="-2.95"  >Eschenheimer</tspan>
+  <tspan  x="201"  dy="5.9"  >Tor</tspan>
+</text>
+<text  class="stationTextMiddleLeft"  x="201"  y="180.676471151549"  >
+  Grüneburgweg
+</text>
+<text  class="stationTextMiddleLeft"  x="201"  y="168.507542156995"  >
+  Holzhausenstraße
+</text>
+<text  class="stationTextMiddleLeft"  x="201"  y="156.338613162441"  >
+  <tspan  x="201"  dy="-2.95"  >Miquel-/</tspan>
+  <tspan  x="201"  dy="5.9"  >Adickesallee</tspan>
+</text>
+<text  class="stationTextMiddleLeft"  x="201"  y="144.169684167887"  >
+  Dornbusch
+</text>
+<text  class="stationTextMiddleLeft"  x="201"  y="132.000755173333"  >
+  Fritz-Tarnow-Straße
+</text>
+<text  class="stationTextMiddleLeft"  x="201"  y="119.831826178779"  >
+  Hügelstraße
+</text>
+<text  class="stationTextMiddleLeft"  x="194.371989869682"  y="98.7445728717121"  >
+  Lindenbaum
+</text>
+<text  class="stationTextMiddleLeft"  x="185.691666131376"  y="91.064249133407"  >
+  Weißer Stein
+</text>
+<text  class="terminusTextTopRight"  x="152.53691739127"  y="86.1937716407626"  >
+  Heddernheim
+</text>
+<text  class="stationTextBottomCenter"  x="134.701110736854"  y="58"  >
+  Zeilweg
+</text>
+<text  class="stationTextMiddleRight"  x="110"  y="88.7207081139897"  >
+  <tspan  x="110"  dy="-2.95"  >Heddernheimer</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="110"  y="88.7207081139897"  >
+  <tspan  x="110"  dy="2.95"  >Landstraße</tspan>
+</text>
+<text  class="terminusTextMiddleLeft"  x="122"  y="100"  >
+  <tspan  x="122"  dy="-2.95"  >Nordwest-</tspan>
+  <tspan  x="122"  dy="5.9"  >zentrum</tspan>
+</text>
+<text  class="stationTextBottomCenter"  x="93.7451332235384"  y="37"  >
+  UNI Campus Riedberg
+</text>
+<text  class="terminusTextBottomCenter"  x="130"  y="37"  >
+  Riedberg
+</text>
+<text  class="stationTextMiddleCenter"  x="191"  y="222"
+  transform="rotate(  90  191  222  )">
+  Hauptwache
+</text>
+<text  class="stationTextBottomRight"  x="205.343145750508"  y="278"  >
+  Willy-Brandt-Platz
+</text>
+<text  class="stationTextTopRight"  x="230.421572875254"  y="302.078427124746"  >
+  Schweizer Platz
+</text>
+<text  class="terminusTextTopLeft"  x="252.727922061358"  y="310.242640687119"  >
+  <tspan  x="252.727922061358"  dy="0"  >Frankfurt </tspan>
+  <tspan  x="252.727922061358"  dy="5.9"  >Süd</tspan>
+</text>
+<text  class="stationTextMiddleLeft"  x="164"  y="60.9131152238051"  >
+  Sandelmühle
+</text>
+<text  class="stationTextMiddleLeft"  x="164"  y="49.3961751243362"  >
+  <tspan  x="164"  dy="-2.95"  >Riedwiese/</tspan>
+  <tspan  x="164"  dy="5.9"  >Mertonviertel</tspan>
+</text>
+<text  class="stationTextBottomCenter"  x="122.116485886099"  y="16"  >
+  Ober-Eschbach
+</text>
+<text  class="stationTextBottomCenter"  x="91.0602881600902"  y="16"  >
+  Gonzenheim
+</text>
+<text  class="stationTextTopRight"  x="74.6436697672724"  y="70"  >
+  Weißkirchen Ost
+</text>
+<text  class="terminusTextTopRight"  x="55.762396155715"  y="61.4192504052074"  >
+  Bommersheim
+</text>
+<text  class="stationTextTopRight"  x="27.3096130782535"  y="32.9664673277459"  >
+  Oberursel Stadtmitte
+</text>
+<text  class="stationTextTopRight"  x="19.0913132474199"  y="24.7481674969123"  >
+  Oberursel Altstadt
+</text>
+<text  class="stationTextTopRight"  x="10.8730134165863"  y="16.5298676660787"  >
+  Lahnstraße
+</text>
+<text  class="stationTextTopRight"  x="2.6547135857527"  y="8.31156783524507"  >
+  Glöcknerwiese
+</text>
+<text  class="stationTextBottomLeft"  x="-7.78681703009844"  y="-4"  >
+  Kupferhammer
+</text>
+<text  class="stationTextBottomCenter"  x="-26.2949498668012"  y="-4"  >
+  Rosengärtchen
+</text>
+<text  class="stationTextTopCenter"  x="-46.0530827035039"  y="4"  >
+  Waldlust
+</text>
+<text  class="terminusTextMiddleRight"  x="-64"  y="0"  >
+  <tspan  x="-64"  dy="-2.95"  >Oberursel</tspan>
+</text>
+<text  class="terminusTextMiddleRight"  x="-64"  y="0"  >
+  <tspan  x="-64"  dy="2.95"  >Hohemark</tspan>
+</text>
+<text  class="stationTextMiddleLeft"  x="253"  y="155.778064661441"  >
+  <tspan  x="253"  dy="-2.95"  >Muster-</tspan>
+  <tspan  x="253"  dy="5.9"  >schule</tspan>
+</text>
+<text  class="stationTextMiddleLeft"  x="253"  y="140.915370189931"  >
+  <tspan  x="253"  dy="-2.95"  >Glauburg-</tspan>
+  <tspan  x="253"  dy="5.9"  >straße</tspan>
+</text>
+<text  class="stationTextMiddleLeft"  x="253"  y="129.355496712089"  >
+  Deutsche Nationalbibliothek
+</text>
+<text  class="stationTextMiddleLeft"  x="253"  y="121.098444227917"  >
+  Hauptfriedhof
+</text>
+<text  class="stationTextMiddleLeft"  x="253"  y="112.841391743745"  >
+  Marbachweg/Sozialzentrum
+</text>
+<text  class="stationTextMiddleLeft"  x="253"  y="104.584339259572"  >
+  Feuerwehrstraße
+</text>
+<text  class="stationTextMiddleLeft"  x="253"  y="96.3272867753997"  >
+  Theobald-Ziegler-Straße
+</text>
+<text  class="stationTextMiddleLeft"  x="253"  y="88.0702342912273"  >
+  Ronneburgstraße
+</text>
+<text  class="stationTextBottomLeft"  x="245.828427124746"  y="74.1715728752538"  >
+  Sigmund-Freud-Straße
+</text>
+<text  class="stationTextBottomLeft"  x="238.578427124746"  y="66.9215728752538"  >
+  Preungesheim
+</text>
+<text  class="stationTextBottomLeft"  x="231.328427124746"  y="59.6715728752538"  >
+  August-Schanz-Straße
+</text>
+<text  class="stationTextBottomLeft"  x="224.078427124746"  y="52.4215728752538"  >
+  Berkersheimer Weg
+</text>
+<text  class="stationTextBottomCenter"  x="94.6496511669736"  y="237"  >
+  Güterplatz
+</text>
+<text  class="stationTextBottomRight"  x="57.6672252516075"  y="237"  >
+  <tspan  x="57.6672252516075"  dy="-5.9"  >Emser</tspan>
+</text>
+<text  class="stationTextBottomRight"  x="57.6672252516075"  y="237"  >
+  <tspan  x="57.6672252516075"  dy="0"  >Brücke</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="41.3754189387056"  y="245"  >
+  <tspan  x="41.3754189387056"  dy="0"  >Europa-</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="41.3754189387056"  y="245"  >
+  <tspan  x="41.3754189387056"  dy="5.9"  >garten</tspan>
+</text>
+<text  class="stationTextBottomCenter"  x="27.5836126258037"  y="237"  >
+  <tspan  x="27.5836126258037"  dy="-5.9"  >Europaviertel</tspan>
+</text>
+<text  class="stationTextBottomCenter"  x="27.5836126258037"  y="237"  >
+  <tspan  x="27.5836126258037"  dy="0"  >West</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="13.7918063129019"  y="245"  >
+  <tspan  x="13.7918063129019"  dy="0"  >Schmidt-</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="13.7918063129019"  y="245"  >
+  <tspan  x="13.7918063129019"  dy="5.9"  >straße</tspan>
+</text>
+<text  class="terminusTextBottomCenter"  x="0"  y="237"  >
+  Römerhof
+</text>
+<text  class="stationTextTopLeft"  x="304.426449188425"  y="191.88725931056"  >
+  Habsburgerallee
+</text>
+<text  class="stationTextTopLeft"  x="312.705249821058"  y="183.608458677927"  >
+  Parlamentsplatz
+</text>
+<text  class="stationTextTopLeft"  x="320.984050453692"  y="175.329658045293"  >
+  Eissporthalle/Festplatz
+</text>
+<text  class="stationTextTopLeft"  x="329.262851086325"  y="167.05085741266"  >
+  Johanna-Tesch-Platz
+</text>
+<text  class="stationTextMiddleLeft"  x="83"  y="143.153308297871"  >
+  <tspan  x="83"  dy="-2.95"  >Große</tspan>
+  <tspan  x="83"  dy="5.9"  >Nelkenstraße</tspan>
+</text>
+<text  class="terminusTextBottomCenter"  x="79"  y="128"  >
+  Hausen
+</text>
+<text  class="stationTextTopRight"  x="69.2220173758824"  y="151.878871625375"  >
+  Fischstein
+</text>
+<text  class="stationTextTopRight"  x="60.4163196363098"  y="143.073173885802"  >
+  Hausener Weg
+</text>
+<text  class="stationTextTopRight"  x="53"  y="128.051499222263"  >
+  <tspan  x="53"  dy="0"  >Stephan-Heise-</tspan>
+</text>
+<text  class="stationTextTopRight"  x="53"  y="128.051499222263"  >
+  <tspan  x="53"  dy="5.9"  >Straße</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="53"  y="118.313437013914"  >
+  <tspan  x="53"  dy="-2.95"  >Friedhof</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="53"  y="118.313437013914"  >
+  <tspan  x="53"  dy="2.95"  >Westhausen</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="53"  y="107.325374805566"  >
+  Heerstr.
+</text>
+<text  class="stationTextTopCenter"  x="300.955211602187"  y="274"  >
+  Mühlberg
+</text>
+<text  class="stationTextBottomCenter"  x="317.967108520356"  y="254"  >
+  Kaiserlei
+</text>
+<text  class="stationTextTopCenter"  x="334.979005438525"  y="274"  >
+  Ledermuseum
+</text>
+<text  class="stationTextBottomCenter"  x="351.990902356694"  y="254"  >
+  <tspan  x="351.990902356694"  dy="-5.9"  >Offenbach</tspan>
+</text>
+<text  class="stationTextBottomCenter"  x="351.990902356694"  y="254"  >
+  <tspan  x="351.990902356694"  dy="0"  >Marktplatz</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="368.104528384912"  y="274"  >
+  <tspan  x="368.104528384912"  dy="0"  >Offenbach</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="368.104528384912"  y="274"  >
+  <tspan  x="368.104528384912"  dy="5.9"  >Ost</tspan>
+</text>
+<text  class="stationTextBottomLeft"  x="391.016103061725"  y="268.70239456274"  >
+  Bieber
+</text>
+<text  class="terminusTextMiddleRight"  x="-95.6568542494924"  y="150"  >
+  Bad Soden
+</text>
+<text  class="stationTextMiddleRight"  x="-18.4852813742386"  y="146.171572875254"  >
+  Eschborn Süd
+</text>
+<text  class="stationTextTopRight"  x="-29.5784271247462"  y="135.078427124746"  >
+  Eschborn
+</text>
+<text  class="stationTextBottomLeft"  x="-37.8431457505076"  y="109.843145750508"  >
+  Niederhöchstadt
+</text>
+<text  class="stationTextBottomLeft"  x="21.9506864530148"  y="163.980123704538"  >
+  Rödelheim
+</text>
+<text  class="stationTextMiddleRight"  x="7"  y="79.4988892631463"  >
+  <tspan  x="7"  dy="-2.95"  >Steinbach/</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="7"  y="79.4988892631463"  >
+  <tspan  x="7"  dy="2.95"  >Weißkirchen</tspan>
+</text>
+<text  class="stationTextBottomRight"  x="14.8937822200706"  y="53.7925092809446"  >
+  Stierstadt
+</text>
+<text  class="stationTextTopRight"  x="68.3514312313239"  y="264.008201815238"  >
+  Galluswarte
+</text>
+<text  class="stationTextMiddleRight"  x="56"  y="217.942928562451"  >
+  Messe
+</text>
+<text  class="stationTextMiddleRight"  x="56"  y="204.485732140613"  >
+  Frankfurt West
+</text>
+<text  class="stationTextMiddleLeft"  x="137.243576165063"  y="130.413278084429"  >
+  Ginnheim
+</text>
+<text  class="stationTextMiddleLeft"  x="182.578427124746"  y="84.0784271247462"  >
+  Eschersheim
+</text>
+<text  class="stationTextBottomLeft"  x="285.329339305333"  y="227.388213808379"  >
+  Ostendstraße
+</text>
+<text  class="stationTextTopLeft"  x="268.323572980548"  y="294.646989767929"  >
+  Lokalbahnhof
+</text>
+<text  class="stationTextMiddleRight"  x="158"  y="334.537421191245"  >
+  Neu-Isenburg
+</text>
+<text  class="stationTextMiddleRight"  x="162"  y="355"  >
+  Dreieich-Buchschlag
+</text>
+<text  class="stationTextMiddleRight"  x="108"  y="306.143795602072"  >
+  Niederrad
+</text>
+<text  class="stationTextTopLeft"  x="89.461894438512"  y="337"  >
+  Stadion
+</text>
+<text  class="stationTextTopLeft"  x="67.2678972904873"  y="355.388956959005"  >
+  Flughafen Terminal 3
+</text>
+<text  class="stationTextBottomCenter"  x="65.3"  y="313"  >
+  Gateway Gardens
+</text>
+<text  class="stationTextTopCenter"  x="36.7"  y="335"  >
+  <tspan  x="36.7"  dy="0"  >Flughafen</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="36.7"  y="335"  >
+  <tspan  x="36.7"  dy="5.9"  >Terminal 1</tspan>
+</text>
+<text  class="terminusTextTopLeft"  x="-1.60346909960261"  y="348.260323349095"  >
+  Kelsterbach
+</text>
+<text  class="stationTextTopLeft"  x="-11.0590895019835"  y="357.715943751476"  >
+  Raunheim
+</text>
+<text  class="stationTextTopLeft"  x="-21.7647099043643"  y="367.171564153857"  >
+  Rüsselsheim
+</text>
+<text  class="terminusTextTopCenter"  x="-38.4065390144739"  y="374"  >
+  Opelwerk
+</text>
+<text  class="stationTextTopCenter"  x="-63.5645434420231"  y="374"  >
+  <tspan  x="-63.5645434420231"  dy="0"  >Mainz-</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="-63.5645434420231"  y="374"  >
+  <tspan  x="-63.5645434420231"  dy="5.9"  >Bischofsheim</tspan>
+</text>
+<text  class="stationTextTopLeft"  x="394.707666313849"  y="255.606042185135"  >
+  Mühlheim
+</text>
+<text  class="stationTextTopLeft"  x="402.076550515649"  y="248.237157983335"  >
+  Dietesheim
+</text>
+<text  class="stationTextTopLeft"  x="409.445434717449"  y="240.868273781535"  >
+  Steinheim
+</text>
+<text  class="terminusTextMiddleLeft"  x="425.828427124746"  y="223.828427124746"  >
+  Hanau Hbf
+</text>
+<text  class="stationTextTopLeft"  x="153.951882046263"  y="250.302951949676"  >
+  Taunusanlage
+</text>
+<text  class="stationTextMiddleCenter"  x="127.313708498985"  y="254.313708498985"
+  transform="rotate(  45  127.313708498985  254.313708498985  )">
+  <tspan  x="127.313708498985"  dy="-2.95"  >Frankfurt</tspan>
+</text>
+<text  class="stationTextMiddleCenter"  x="127.313708498985"  y="254.313708498985"
+  transform="rotate(  45  127.313708498985  254.313708498985  )">
+  <tspan  x="127.313708498985"  dy="2.95"  >Hauptbahnhof</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="49.5952232865492"  y="284"  >
+  Griesheim
+</text>
+<text  class="stationTextBottomCenter"  x="4.32236417393406"  y="272"  >
+  Nied
+</text>
+<text  class="stationTextMiddleRight"  x="-31.6568542494924"  y="285.343145750508"  >
+  Höchst
+</text>
+<text  class="stationTextTopLeft"  x="-37.0782351558118"  y="306.078235155812"  >
+  Farbwerke
+</text>
+<text  class="stationTextBottomLeft"  x="-111.322575245476"  y="326.020570505032"  >
+  Mainz-Kastel
+</text>
+<text  class="stationTextMiddleRight"  x="-132"  y="311.394342136038"  >
+  Wiesbaden Ost
+</text>
+<text  class="terminusTextBottomCenter"  x="-124"  y="296"  >
+  Wiesbaden Hbf
+</text>
+<text  class="stationTextBottomLeft"  x="-3.71530612222953"  y="297.28469387777"  >
+  <tspan  x="-3.71530612222953"  dy="-5.9"  >Industriepark</tspan>
+  <tspan  x="-3.71530612222953"  dy="5.9"  >Höchst Ost</tspan>
+</text>
+<text  class="stationTextTopRight"  x="1.01687899820022"  y="315.673733247693"  >
+  <tspan  x="1.01687899820022"  dy="0"  >Industriepark</tspan>
+</text>
+<text  class="stationTextTopRight"  x="1.01687899820022"  y="315.673733247693"  >
+  <tspan  x="1.01687899820022"  dy="5.9"  >Höchst Süd</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="-43"  y="254.641037285163"  >
+  Stadtpark Höchst
+</text>
+<text  class="terminusTextMiddleRight"  x="-43"  y="231.586897174481"  >
+  Sossenheim
+</text>
+<text  class="stationTextMiddleRight"  x="-43"  y="209.219766908755"  >
+  Dunantsiedlung
+</text>
+<text  class="stationTextMiddleLeft"  x="-31"  y="185.549417271887"  >
+  <tspan  x="-31"  dy="-2.95"  >Düsseldorfer</tspan>
+  <tspan  x="-31"  dy="5.9"  >Straße</tspan>
+</text>
+<text  class="stationTextBottomRight"  x="-1.07912966023412"  y="128.765421161249"  >
+  <tspan  x="-1.07912966023412"  dy="-5.9"  >Eschborn</tspan>
+</text>
+<text  class="stationTextBottomRight"  x="-1.07912966023412"  y="128.765421161249"  >
+  <tspan  x="-1.07912966023412"  dy="0"  >Ost</tspan>
+</text>
+<text  class="stationTextBottomLeft"  x="398.385070178545"  y="276.071361679561"  >
+  Waldhof
+</text>
+<text  class="stationTextBottomLeft"  x="405.754037295366"  y="283.440328796381"  >
+  Obertshausen
+</text>
+<text  class="stationTextBottomLeft"  x="414"  y="300.090924107857"  >
+  <tspan  x="414"  dy="-5.9"  >Rodgau-</tspan>
+  <tspan  x="414"  dy="5.9"  >Weiskirchen</tspan>
+</text>
+<text  class="stationTextMiddleLeft"  x="414"  y="307.367436756547"  >
+  Hainhausen
+</text>
+<text  class="stationTextMiddleLeft"  x="414"  y="315.893949405238"  >
+  Jügesheim
+</text>
+<text  class="stationTextMiddleLeft"  x="414"  y="324.420462053928"  >
+  Dudenhofen
+</text>
+<text  class="stationTextMiddleLeft"  x="414"  y="332.946974702619"  >
+  Nieder-Roden
+</text>
+<text  class="stationTextMiddleLeft"  x="414"  y="341.473487351309"  >
+  Rollwald
+</text>
+<text  class="terminusTextTopCenter"  x="410"  y="355"  >
+  Ober-Roden
+</text>
+<text  class="stationTextTopRight"  x="-62.8307180467833"  y="295.826136202709"  >
+  Zeilsheim
+</text>
+<text  class="stationTextTopRight"  x="-73.8303907722066"  y="284.826463477286"  >
+  Kriftel
+</text>
+<text  class="terminusTextTopRight"  x="-84.8300634976299"  y="273.826790751863"  >
+  Hofheim
+</text>
+<text  class="stationTextTopRight"  x="-95.8297362230531"  y="262.827118026439"  >
+  Lorsbach
+</text>
+<text  class="stationTextTopRight"  x="-106.829408948476"  y="251.827445301016"  >
+  Eppstein
+</text>
+<text  class="stationTextTopRight"  x="-117.8290816739"  y="240.827772575593"  >
+  Bremthal
+</text>
+<text  class="stationTextTopRight"  x="-128.828754399323"  y="229.828099850169"  >
+  Niederjosbach
+</text>
+<text  class="terminusTextBottomCenter"  x="-137"  y="211"  >
+  Niedernhausen
+</text>
+<text  class="stationTextMiddleRight"  x="386"  y="293.065194758224"  >
+  Heusenstamm
+</text>
+<text  class="stationTextMiddleRight"  x="386"  y="305.376796505482"  >
+  <tspan  x="386"  dy="-2.95"  >Dietzenbach-</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="386"  y="305.376796505482"  >
+  <tspan  x="386"  dy="2.95"  >Steinberg</tspan>
+</text>
+<text  class="stationTextMiddleRight"  x="386"  y="317.688398252741"  >
+  Dietzenbach-Mitte
+</text>
+<text  class="terminusTextMiddleRight"  x="386"  y="330"  >
+  <tspan  x="386"  dy="-2.95"  >Dietzenbach</tspan>
+</text>
+<text  class="terminusTextMiddleRight"  x="386"  y="330"  >
+  <tspan  x="386"  dy="2.95"  >Bahnhof</tspan>
+</text>
+<text  class="stationTextBottomRight"  x="-62.5753247475867"  y="116.918470498094"  >
+  Schwalbach Nord
+</text>
+<text  class="stationTextBottomRight"  x="-72.6596922066399"  y="127.002837957147"  >
+  Schwalbach Limes
+</text>
+<text  class="stationTextBottomRight"  x="-82.744059665693"  y="137.087205416201"  >
+  Sulzbach Nord
+</text>
+<text  class="stationTextBottomLeft"  x="-54.5931457505076"  y="93.0931457505076"  >
+  Kronberg Süd
+</text>
+<text  class="terminusTextBottomLeft"  x="-71.3431457505076"  y="76.3431457505076"  >
+  Kronberg
+</text>
+<text  class="stationTextBottomRight"  x="88.989308476558"  y="-4"  >
+  Seulberg
+</text>
+<text  class="terminusTextMiddleLeft"  x="104"  y="0"  >
+  Friedrichsdorf
+</text>
+<text  class="stationTextTopCenter"  x="339.969785777659"  y="207"  >
+  Fechenheim
+</text>
+<text  class="stationTextBottomCenter"  x="356.646523851773"  y="199"  >
+  Maintal West
+</text>
+<text  class="stationTextTopCenter"  x="373.323261925886"  y="207"  >
+  Maintal Ost
+</text>
+<text  class="stationTextBottomCenter"  x="390"  y="199"  >
+  <tspan  x="390"  dy="-5.9"  >Hanau-</tspan>
+</text>
+<text  class="stationTextBottomCenter"  x="390"  y="199"  >
+  <tspan  x="390"  dy="0"  >Wilhelmsbad</tspan>
+</text>
+<text  class="stationTextBottomLeft"  x="409.655980462692"  y="206.9991262132"  >
+  Hanau West
+</text>
+<text  class="stationTextTopLeft"  x="229.191402028801"  y="38.465452220691"  >
+  Berkersheim
+</text>
+<text  class="stationTextTopLeft"  x="237.54476345046"  y="30.1120907990322"  >
+  Bad-Vilbel Süd
+</text>
+<text  class="terminusTextBottomCenter"  x="261.323404351234"  y="16"  >
+  Bad-Vilbel
+</text>
+<text  class="stationTextTopCenter"  x="278.823211075868"  y="24"  >
+  Dortelweil
+</text>
+<text  class="terminusTextBottomCenter"  x="296.323017800502"  y="16"  >
+  Groß-Karben
+</text>
+<text  class="stationTextTopCenter"  x="313.822824525137"  y="24"  >
+  Okarben
+</text>
+<text  class="stationTextTopLeft"  x="333.270507119519"  y="17.386347129973"  >
+  Nieder-Wöllstadt
+</text>
+<text  class="stationTextTopLeft"  x="340.549467122133"  y="10.1073871273596"  >
+  Bruchenbrücken
+</text>
+<text  class="terminusTextMiddleLeft"  x="349"  y="0"  >
+  Friedberg
+</text>
+<text  class="stationTextTopCenter"  x="213.64186413866"  y="320"  >
+  Stresemannallee
+</text>
+<text  class="stationTextTopLeft"  x="177.831065553663"  y="323.825788695829"  >
+  Louisa
+</text>
+<text  class="stationTextMiddleRight"  x="166"  y="363.571428571429"  >
+  Langen-Flugsicherung
+</text>
+<text  class="terminusTextMiddleRight"  x="166"  y="372.142857142857"  >
+  Langen
+</text>
+<text  class="stationTextMiddleRight"  x="166"  y="380.714285714286"  >
+  Egelsbach
+</text>
+<text  class="stationTextMiddleRight"  x="166"  y="389.285714285714"  >
+  Erzhausen
+</text>
+<text  class="stationTextMiddleRight"  x="166"  y="397.857142857143"  >
+  Wixhausen
+</text>
+<text  class="stationTextMiddleRight"  x="166"  y="406.428571428571"  >
+  Arheilgen
+</text>
+<text  class="terminusTextMiddleRight"  x="166"  y="415"  >
+  Darmstadt Hbf
+</text>
+<text  class="stationTextTopLeft"  x="76.0078089847774"  y="346.649045264715"  >
+  Zeppelinheim
+</text>
+<text  class="stationTextTopLeft"  x="58.5279855961971"  y="364.128868653295"  >
+  Walldorf
+</text>
+<text  class="stationTextTopLeft"  x="49.7880739019069"  y="372.868780347585"  >
+  Mörfelden
+</text>
+<text  class="stationTextTopLeft"  x="41.0481622076167"  y="381.608692041876"  >
+  Groß-Gerau-Dornberg
+</text>
+<text  class="stationTextTopLeft"  x="32.3082505133265"  y="390.348603736166"  >
+  Dornheim
+</text>
+<text  class="stationTextTopLeft"  x="23.5683388190364"  y="399.088515430456"  >
+  Wolfskehlen
+</text>
+<text  class="terminusTextTopLeft"  x="14.8284271247462"  y="407.828427124746"  >
+  Riedstadt-Goddelau
+</text>
+<text  class="stationTextTopCenter"  x="-91.3902293850419"  y="374"  >
+  Gustavsburg
+</text>
+<text  class="stationTextTopRight"  x="-124.855689009512"  y="368.801165239981"  >
+  <tspan  x="-124.855689009512"  dy="0"  >Mainz</tspan>
+</text>
+<text  class="stationTextTopRight"  x="-124.855689009512"  y="368.801165239981"  >
+  <tspan  x="-124.855689009512"  dy="5.9"  >Römisches Theater</tspan>
+</text>
+<text  class="stationTextTopRight"  x="-132.968438649868"  y="360.688415599624"  >
+  Mainz Hbf
+</text>
+<text  class="stationTextTopRight"  x="-141.081188290224"  y="352.575665959268"  >
+  Mainz-Schott
+</text>
+<text  class="stationTextBottomRight"  x="-55.7145481237211"  y="309.400839624736"  >
+  Sindlingen
+</text>
+<text  class="stationTextBottomRight"  x="-63.2289715922783"  y="316.915263093294"  >
+  Hattersheim
+</text>
+<text  class="stationTextTopLeft"  x="-65.0865408113431"  y="330.086540811343"  >
+  Eddersheim
+</text>
+<text  class="stationTextTopLeft"  x="-72.6009642799003"  y="337.6009642799"  >
+  Flörsheim
+</text>
+<text  class="stationTextBottomCenter"  x="-92.1017273865505"  y="338"  >
+  Hochheim
+</text>
+<text  class="stationTextBottomLeft"  x="125.776548245744"  y="313"  >
+  Stadionbad
+</text>
+<text  class="stationTextTopCenter"  x="209.227079934123"  y="347"  >
+  <tspan  x="209.227079934123"  dy="0"  >Wilh.-Leuschner-</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="209.227079934123"  y="347"  >
+  <tspan  x="209.227079934123"  dy="5.9"  >Straße</tspan>
+</text>
+<text  class="stationTextBottomCenter"  x="227.818053289415"  y="339"  >
+  <tspan  x="227.818053289415"  dy="-5.9"  >Neu-Isenburg</tspan>
+</text>
+<text  class="stationTextBottomCenter"  x="227.818053289415"  y="339"  >
+  <tspan  x="227.818053289415"  dy="0"  >Zentrum</tspan>
+</text>
+<text  class="stationTextTopCenter"  x="246.409026644708"  y="347"  >
+  Am Trieb
+</text>
+<text  class="terminusTextMiddleLeft"  x="269"  y="343"  >
+  Birkengewann
+</text>
+<text  class="stationTextTopRight"  x="-75.8966385783411"  y="169.760215671151"  >
+  Sulzbach
+</text>
+<text  class="stationTextTopCenter"  x="87.5"  y="104"  >
+  Praunheimer Weg
+</text>
+<use  href="#SuburbanEndMarker"  x="-133"  y="288"  stroke="#50A0F0"  fill="#50A0F0"  />
+<text  class="suburbanEndMarkerText"  x="-133"  y="288"  stroke="#50A0F0"  >
+  S1
+</text>
+<use  href="#SuburbanEndMarker"  x="418"  y="350"  stroke="#50A0F0"  fill="#50A0F0"  />
+<text  class="suburbanEndMarkerText"  x="418"  y="350"  stroke="#50A0F0"  >
+  S1
+</text>
+<use  href="#SuburbanEndMarker"  x="-137"  y="203"  stroke="#EE4444"  fill="#EE4444"  />
+<text  class="suburbanEndMarkerText"  x="-137"  y="203"  stroke="#EE4444"  >
+  S2
+</text>
+<use  href="#SuburbanEndMarker"  x="390"  y="337"  stroke="#EE4444"  fill="#EE4444"  />
+<text  class="suburbanEndMarkerText"  x="390"  y="337"  stroke="#EE4444"  >
+  S2
+</text>
+<use  href="#SuburbanEndMarker"  x="-108"  y="155.2"  stroke="#38C7FF"  fill="#88DDFF"  />
+<text  class="suburbanEndMarkerText"  x="-108"  y="155.2"  stroke="#38C7FF"  >
+  S3
+</text>
+<use  href="#SuburbanEndMarker"  x="256"  y="330"  stroke="#38C7FF"  fill="#88DDFF"  />
+<text  class="suburbanEndMarkerText"  x="256"  y="330"  stroke="#38C7FF"  >
+  S3
+</text>
+<use  href="#SuburbanEndMarker"  x="-80.1715728752538"  y="73.1715728752538"  stroke="#77CC44"  fill="#77CC44"  />
+<text  class="suburbanEndMarkerText"  x="-80.1715728752538"  y="73.1715728752538"  stroke="#77CC44"  >
+  S4
+</text>
+<use  href="#SuburbanEndMarker"  x="265"  y="330"  stroke="#77CC44"  fill="#77CC44"  />
+<text  class="suburbanEndMarkerText"  x="265"  y="330"  stroke="#77CC44"  >
+  S4
+</text>
+<use  href="#SuburbanEndMarker"  x="100"  y="-6.8"  stroke="#3164BF"  fill="#3164BF"  />
+<text  class="suburbanEndMarkerText"  x="100"  y="-6.8"  stroke="#3164BF"  >
+  S5
+</text>
+<use  href="#SuburbanEndMarker"  x="426"  y="217"  stroke="#3164BF"  fill="#3164BF"  />
+<text  class="suburbanEndMarkerText"  x="426"  y="217"  stroke="#3164BF"  >
+  S5
+</text>
+<use  href="#SuburbanEndMarker"  x="345"  y="-6.8"  stroke="#FF7744"  fill="#FF7744"  />
+<text  class="suburbanEndMarkerText"  x="345"  y="-6.8"  stroke="#FF7744"  >
+  S6
+</text>
+<use  href="#SuburbanEndMarker"  x="178"  y="415"  stroke="#FF7744"  fill="#FF7744"  />
+<text  class="suburbanEndMarkerText"  x="178"  y="415"  stroke="#FF7744"  >
+  S6
+</text>
+<use  href="#SuburbanEndMarker"  x="435"  y="217"  stroke="#FF52DC"  fill="#FFAAEE"  />
+<text  class="suburbanEndMarkerText"  x="435"  y="217"  stroke="#FF52DC"  >
+  S8
+</text>
+<use  href="#SuburbanEndMarker"  x="-115"  y="288"  stroke="#226644"  fill="#226644"  />
+<text  class="suburbanEndMarkerText"  x="-115"  y="288"  stroke="#226644"  >
+  S9
+</text>
+<use  href="#SuburbanEndMarker"  x="444"  y="217"  stroke="#226644"  fill="#226644"  />
+<text  class="suburbanEndMarkerText"  x="444"  y="217"  stroke="#226644"  >
+  S9
+</text>
+<use  href="#SuburbanEndMarker"  x="-124"  y="288"  stroke="#FF52DC"  fill="#FFAAEE"  />
+<text  class="suburbanEndMarkerText"  x="-124"  y="288"  stroke="#FF52DC"  >
+  S8
+</text>
+<use  href="#SuburbanEndMarker-3Chars"  x="265"  y="350"  stroke="#AA33AA"  fill="#AA33AA"  />
+<text  class="suburbanEndMarkerText"  x="265"  y="350"  stroke="#AA33AA"  >
+  S12
+</text>
+<use  href="#SuburbanEndMarker"  x="135.62741699797"  y="277.62741699797"  stroke="#3344AA"  fill="#3344AA"  />
+<text  class="suburbanEndMarkerText"  x="135.62741699797"  y="277.62741699797"  stroke="#3344AA"  >
+  S7
+</text>
+<use  href="#SuburbanEndMarker"  x="6"  y="411"  stroke="#3344AA"  fill="#3344AA"  />
+<text  class="suburbanEndMarkerText"  x="6"  y="411"  stroke="#3344AA"  >
+  S7
+</text>
+<use  href="#SuburbanEndMarker-3Chars"  x="179"  y="355"  stroke="#AEC200"  fill="#DFF700"  />
+<text  class="suburbanEndMarkerText"  x="179"  y="355"  stroke="#AEC200"  >
+  S13
+</text>
+<use  href="#SuburbanEndMarker-3Chars"  x="-98"  y="155.2"  stroke="#AEC200"  fill="#DFF700"  />
+<text  class="suburbanEndMarkerText"  x="-98"  y="155.2"  stroke="#AEC200"  >
+  S13
+</text>
+<use  href="#SuburbanEndMarker-3Chars"  x="53"  y="4"  stroke="#AA33AA"  fill="#AA33AA"  />
+<text  class="suburbanEndMarkerText"  x="53"  y="4"  stroke="#AA33AA"  >
+  S12
+</text>
+<use  href="#SuburbanEndMarker-3Chars"  x="145"  y="108"  stroke="#AEC200"  fill="#DFF700"  />
+<text  class="suburbanEndMarkerText"  x="145"  y="108"  stroke="#AEC200"  >
+  S13
+</text>
+<use  href="#Airport"  x="44"  y="341"  width="13"  height="13"  />
+<use  href="#Stadium"  x="113"  y="335"  width="23"  height="23"  />
+<use  href="#MetroEndMarker"  x="43"  y="4"  stroke="#8FCC14"  fill="#BBEE55"  />
+<text  class="metroEndMarkerText"  x="43"  y="4"  stroke="#8FCC14"  >
+  U2
+</text>
+<use  href="#MetroEndMarker"  x="265"  y="324"  stroke="#8FCC14"  fill="#BBEE55"  />
+<text  class="metroEndMarkerText"  x="265"  y="324"  stroke="#8FCC14"  >
+  U2
+</text>
+<use  href="#MetroEndMarker"  x="274"  y="324"  stroke="#CC9900"  fill="#FFC000"  />
+<text  class="metroEndMarkerText"  x="274"  y="324"  stroke="#CC9900"  >
+  U3
+</text>
+<use  href="#MetroEndMarker"  x="-60"  y="-6.8"  stroke="#CC9900"  fill="#FFC000"  />
+<text  class="metroEndMarkerText"  x="-60"  y="-6.8"  stroke="#CC9900"  >
+  U3
+</text>
+<use  href="#MetroEndMarker"  x="366.414213562373"  y="111.414213562373"  stroke="#60943C"  fill="#60943C"  />
+<text  class="metroEndMarkerText"  x="366.414213562373"  y="111.414213562373"  stroke="#60943C"  >
+  U4
+</text>
+<use  href="#MetroEndMarker"  x="138"  y="25.2"  stroke="#60943C"  fill="#60943C"  />
+<text  class="metroEndMarkerText"  x="138"  y="25.2"  stroke="#60943C"  >
+  U4
+</text>
+<use  href="#MetroEndMarker"  x="206.828427124746"  y="31.1715728752538"  stroke="#C2AE00"  fill="#F7DD00"  />
+<text  class="metroEndMarkerText"  x="206.828427124746"  y="31.1715728752538"  stroke="#C2AE00"  >
+  U5
+</text>
+<use  href="#MetroEndMarker"  x="-8"  y="241"  stroke="#C2AE00"  fill="#F7DD00"  />
+<text  class="metroEndMarkerText"  x="-8"  y="241"  stroke="#C2AE00"  >
+  U5
+</text>
+<use  href="#MetroEndMarker"  x="278.171572875254"  y="151.171572875254"  stroke="#AA77CC"  fill="#AA77CC"  />
+<text  class="metroEndMarkerText"  x="278.171572875254"  y="151.171572875254"  stroke="#AA77CC"  >
+  U9
+</text>
+<use  href="#MetroEndMarker"  x="135"  y="108"  stroke="#AA77CC"  fill="#AA77CC"  />
+<text  class="metroEndMarkerText"  x="135"  y="108"  stroke="#AA77CC"  >
+  U9
+</text>
+<use  href="#MetroEndMarker"  x="318"  y="222"  stroke="#00D6D6"  fill="#AAFFFF"  />
+<text  class="metroEndMarkerText"  x="318"  y="222"  stroke="#00D6D6"  >
+  U6
+</text>
+<use  href="#MetroEndMarker"  x="375.414213562373"  y="111.414213562373"  stroke="#AA0055"  fill="#AA0055"  />
+<text  class="metroEndMarkerText"  x="375.414213562373"  y="111.414213562373"  stroke="#AA0055"  >
+  U7
+</text>
+<use  href="#MetroEndMarker"  x="57"  y="87"  stroke="#AA0055"  fill="#AA0055"  />
+<text  class="metroEndMarkerText"  x="57"  y="87"  stroke="#AA0055"  >
+  U7
+</text>
+<use  href="#MetroEndMarker"  x="87"  y="132"  stroke="#00D6D6"  fill="#AAFFFF"  />
+<text  class="metroEndMarkerText"  x="87"  y="132"  stroke="#00D6D6"  >
+  U6
+</text>
+<use  href="#MetroEndMarker"  x="126"  y="108"  stroke="#1F4E78"  fill="#1F4E78"  />
+<text  class="metroEndMarkerText"  x="126"  y="108"  stroke="#1F4E78"  >
+  U1
+</text>
+<use  href="#MetroEndMarker"  x="137"  y="46.2"  stroke="#5D9DD5"  fill="#9BC2E5"  />
+<text  class="metroEndMarkerText"  x="137"  y="46.2"  stroke="#5D9DD5"  >
+  U8
+</text>
+<use  href="#MetroEndMarker"  x="256"  y="324"  stroke="#1F4E78"  fill="#1F4E78"  />
+<text  class="metroEndMarkerText"  x="256"  y="324"  stroke="#1F4E78"  >
+  U1
+</text>
+<use  href="#MetroEndMarker"  x="283"  y="324"  stroke="#5D9DD5"  fill="#9BC2E5"  />
+<text  class="metroEndMarkerText"  x="283"  y="324"  stroke="#5D9DD5"  >
+  U8
+</text>
+<use  href="#EuropaTower"  x="145"  y="180.244473675418"  width="15"  height="15"  />
+  <text  class="footer"  x="-165"  y="415"  >
+  Future Suburban and Underground Train Network Map Frankfurt/Rhein-Main
+  </text>
+  <text  class="footer"  x="-165"  y="420"  >
+  © CC-BY-SA 4.0 or later - 2026 - Holger Kretschmer
+  </text>
+</svg>
